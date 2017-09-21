@@ -140,7 +140,7 @@
   active: false
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
-  swmath: http://swmath.org/software/796
+  swmath: http://swmath.org/software/9796
 
 - name: scunac
   active: false
