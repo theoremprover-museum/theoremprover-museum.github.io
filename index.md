@@ -25,6 +25,15 @@ See also [Contributors](/contributors/), [Community](/community/), [project/issu
 Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study. 
 In particular this should lower the barrier of archiving systems here. 
 
+## Latest News [Full List](/news/)
+
+{% for post in site.posts limit:5 %}
+  <p>
+    <a href="{{post.url}}">{{post.title}}</a><br />
+    <small>{{post.date | date: "%-d %B %Y" }}</small>
+  </p>
+{% endfor %}
+
 ## Related Resources
 
 [Encyclopedia of proof systems](https://proofsystem.github.io/Encyclopedia/), [Wikipedia page](https://en.wikipedia.org/wiki/Automated_theorem_proving), [... more](/related/). 

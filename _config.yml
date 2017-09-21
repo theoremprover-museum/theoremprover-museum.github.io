@@ -1,2 +1,9 @@
 title: The Theorem Prover Museum
 permalink:        /news/:year/:month/:day/:title/
+
+# all the pagination
+gems:
+  - jekyll-paginate
+paginate:            10
+paginate_path:       "/news/page:num/"
+blog_path:           "/news/"
