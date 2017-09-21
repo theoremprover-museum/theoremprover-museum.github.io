@@ -19,15 +19,15 @@ The term "museum" may be sound bit ambitious, since the exhibition and didactic 
 But the foremost function of a [museum](https://en.wikipedia.org/wiki/Museum) is the conservation of artifacts, which is what the "theorem prover museum" project intends to do. 
 
 This site is the front-end to a collection of source code repositories for theorem provers (see below). 
-To exhibit your system here or suggest a system for inclusion ([most wanted list](most-wanted-list.html), [systems believed lost](systems-believed-lost.html)), please contact [Michael Kohlhase](mailto:m.kohlhase@jacobs-university.de). 
-See also [Contributors](contributors.html), [Community](community.html), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
+To exhibit your system here or suggest a system for inclusion ([most wanted list](/wanted/), [systems believed lost](/lost/)), please contact [Michael Kohlhase](mailto:m.kohlhase@jacobs-university.de). 
+See also [Contributors](/contributors/), [Community](/community/), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
 
 Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study. 
 In particular this should lower the barrier of archiving systems here. 
 
 ## Related Resources
 
-[Encyclopedia of proof systems](https://proofsystem.github.io/Encyclopedia/), [Wikipedia page](https://en.wikipedia.org/wiki/Automated_theorem_proving), [... more](related-resources.html). 
+[Encyclopedia of proof systems](https://proofsystem.github.io/Encyclopedia/), [Wikipedia page](https://en.wikipedia.org/wiki/Automated_theorem_proving), [... more](/related/). 
 
 All theorem provers start out as active systems, eventually development gets discontinued as developers retire or move to newer systems. 
-Therefore we also maintain a list of [source code repositories of active theorem provers](active-tp.html). 
+Therefore we also maintain a list of [source code repositories of active theorem provers](/active/). 
