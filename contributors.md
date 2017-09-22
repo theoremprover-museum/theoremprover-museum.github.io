@@ -17,7 +17,7 @@ We are grateful to [GitHub.com](http://github.com) for their service to the open
 The Theorem prover museum is a community effort, the current collection has been made possible by the following individuals: 
 
 * a discussion with **Jaques Fleuriot** and **Alan Smaill** at the University of Edinburgh in February 2016 and their immediate offer to help made Michael's vague idea of a collection of theorem prover sources sufficiently concrete to get him started. 
-* **Tom Wiesing** has helped with technical support for the setup and maintenance of the web site. 
+* **Tom Wiesing** (FAU Erlangen-Nürnberg) has helped with technical support for the setup and maintenance of the web site. 
 * **William Farmer** (McMaster University) supplied the first system: [IMPS](http://github.com/theoremprover-museum/imps).
 * **Jörg Siekmann** has been immediately supportive of the idea and organized the contribution of the [MKRP (Markgraph Karl Refutation Procedure)](http://github.com/theoremprover-museum/MKRP) and [OMEGA](http://github.com/theoremprover-museum/OMEGA) systems.
 *  **Wolfgang Bibel** triggered colleagues and former members of his group to contribute and promised to look for source code of his early systems.
