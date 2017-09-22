@@ -25,7 +25,7 @@ See also [Contributors](/contributors/), [Community](/community/), [project/issu
 Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study. 
 In particular this should lower the barrier of archiving systems here. 
 
-## Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed_w.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
+## Latest News [Full List](/news/) [![{{ site.baseurl }}/public/feed_w.png]]({{ site.baseurl }}/atom.xml)
 
 {% for post in site.posts limit:5 %}
   <p>
