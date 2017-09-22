@@ -1,9 +1,9 @@
 ---
 title: Contributors
-layout: jumbo
+layout: default
 ---
 
-# The Technical Basis
+### The Technical Basis
 
 of the Theorem Prover Museum is provided by [GitHub](http://github.com) the premier web-based GIT repository hosting service. 
 The free-for-public hosting service of GitHub allows to provide separate repositories for the respective systems and give the respective authors and maintainers control over them, while promising long-term availabiltiy. 
@@ -12,7 +12,7 @@ The [Museum web site](http://theoremprover-museum.github.io) is conveniently org
 
 We are grateful to [GitHub.com](http://github.com) for their service to the open source community.
 
-# Individual Contributors to the Theorem Prover Museum
+### Individual Contributors to the Theorem Prover Museum
 
 The Theorem prover museum is a community effort, the current collection has been made possible by the following individuals: 
 
@@ -23,7 +23,7 @@ The Theorem prover museum is a community effort, the current collection has been
 *  **Wolfgang Bibel** triggered colleagues and former members of his group to contribute and promised to look for source code of his early systems.
 * **Bob Veroff** pointed Michael to the source of [Otter](http://github.com/theoremprover-museum/otter), packaged [Prover9](http://github.com/theoremprover-museum/prover9), and helped make contact to the Argonne prople for the early systems.
 
-# How can you contribute?
+### How can you contribute?
 
 * If you have access to (the sources of) a system, or want to suggest a system, please contact [Michael Kohlhase](http://kwarc.info/kohlhase).
 * If you want to help with the site admin, the presentation of theorem provers, ... We collect suggestions and plans on the [the issue tracker of the web site repository](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
