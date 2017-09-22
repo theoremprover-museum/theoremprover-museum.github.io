@@ -22,10 +22,10 @@ layout: default
           <p>{{ prover.teaser }}</p>
            <div class="btn-group">
               {% if prover.repos %}
-                <a class="btn btn-primary" href="{{ prover.repos }}" role="button">Repository</a>
+                <a class="btn btn-primary" href="{{ prover.repos }}" role="button" target="_blank">Repository</a>
               {% endif %}
               {% if prover.swmath %}
-                <a class="btn btn-default" href="{{ prover.swmath }}" role="button">swMATH</a>
+                <a class="btn btn-default" href="{{ prover.swmath }}" role="button"  target="_blank">swMATH</a>
               {% endif %}
             </div>
         </div>
