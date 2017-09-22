@@ -1,6 +1,7 @@
 title: The Theorem Prover Museum
 permalink:        /news/:year/:month/:day/:title/
 url:                 http://theoremprover-museum.github.io
+baseurl:             ''
 
 # all the pagination
 gems:
