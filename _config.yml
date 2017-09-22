@@ -1,5 +1,6 @@
 title: The Theorem Prover Museum
 permalink:        /news/:year/:month/:day/:title/
+url:                 http://theoremprover-museum.github.io
 
 # all the pagination
 gems:
@@ -7,3 +8,9 @@ gems:
 paginate:            10
 paginate_path:       "/news/page:num/"
 blog_path:           "/news/"
+
+# About/contact
+author:
+  name:              'Michael Kohlhase'
+  url:                   http://kwarc.info/kohlhase
+  email:               michael.kohlhase@fau.de
