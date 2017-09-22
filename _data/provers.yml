@@ -28,7 +28,7 @@
   repos: https://github.com/theoremprover-museum/otter
   swmath: http://swmath.org/software/2904
 
-- name:  Mace
+- name: Mace
   active: false
   teaser: The Argonne Model generator. 
   repos: https://github.com/theoremprover-museum/otter
