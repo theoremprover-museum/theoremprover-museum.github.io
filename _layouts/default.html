@@ -11,9 +11,14 @@ layout: compress
 
     <title>{{ site.title }} - {{ page.title }}</title>
 
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
   </head>
   <body>
     {{ content }}
+    
+    <br />
+    <div class="footer text-center">
+      &copy; Theorem Prover Museum Contributors - Last update at {{site.time}}
+    </div>
   </body>
  </html>

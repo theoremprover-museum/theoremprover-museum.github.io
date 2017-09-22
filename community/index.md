@@ -7,6 +7,6 @@ layout: jumbo
 
 The Theorem Prover Museum is a community effort:
 
-* [Contributors](contributors.html)
+* [Contributors](/contributors/)
 * We will set up mailing lists soon.
 * Project planning is done by the [GitHub issue tracker](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues)
