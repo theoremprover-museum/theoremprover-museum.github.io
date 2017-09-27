@@ -48,7 +48,7 @@
 - name: PRESS
   active: false
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
-  repos: https://github.com/maths/PRESS
+  repos: https://github.com/theoremprover-museum/PRESS
   swmath: http://swmath.org/software/21327
 
 - name: LCF77
