@@ -78,8 +78,7 @@
 - name: SNARK
   active: false
   teaser: SRI's New Automated Reasoning Kit
-  repos: https://github.com/nilqed/SNARK
-  repos: https://github.com/theoremprover-museum/SNARK
+  repos: https://github.com/nilqed/SNARK, https://github.com/theoremprover-museum/SNARK
   swmath: http://swmath.org/software/19611
 
 - name: PRV

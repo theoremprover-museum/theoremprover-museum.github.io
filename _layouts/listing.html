@@ -21,11 +21,12 @@ layout: default
           <h2>{{ prover.name }}</h2>
           <p>{{ prover.teaser }}</p>
            <div class="btn-group">
-              {% if prover.repos %}
-                <a class="btn btn-primary" href="{{ prover.repos }}" role="button" target="_blank">Repository</a>
-              {% endif %}
+              {% assign repos = prover.repos | split: ',' %}
+              {% for r in repos %}
+                <a class="btn btn-primary" href="{{ r | trim }}" role="button">Repository</a>
+              {% endfor %}
               {% if prover.swmath %}
-                <a class="btn btn-default" href="{{ prover.swmath }}" role="button"  target="_blank">swMATH</a>
+                <a class="btn btn-default" href="{{ prover.swmath }}" role="button">swMATH</a>
               {% endif %}
             </div>
         </div>
