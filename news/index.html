@@ -1,16 +1,24 @@
 ---
-layout: jumbo
+layout: default
 title: News
 source: _posts/
 ---
 
 <h1>Theorem Prover Museum - News</h1>
 
-{% for post in paginator.posts %}
-  <p>
-    <a href="{{post.url}}">{{post.title}}</a><br />
-    <small>{{post.date | date: "%-d %B %Y" }}</small>
-  </p>
-{% endfor %}
+<ul class="collection">
+  {% for post in paginator.posts %}
+    <li class="collection-item">
+      <a href="{{post.url}}" class="title">
+          {{post.title}}
+      </a>
+      <div>
+        <div class="chip">
+          {{post.date | date: "%-d %B %Y" }}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 
 {% include pagination.html %}

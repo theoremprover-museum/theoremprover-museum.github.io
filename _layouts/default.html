@@ -3,22 +3,91 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="date" content="{{ site.time }}" scheme="YYYY-MM-DD HH:MM:SS TTTT">
+    <meta name='revision' content='{{ site.github.build_revision }}'>
 
-    <title>{{ site.title }} - {{ page.title }}</title>
+    <title>
+      {{ site.title }} - {{ page.title }}
+    </title>
+    
+    <!--Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Import materialize -->
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/public/materialize/css/materialize.min.css"  media="screen,projection"/>
+    
+    <!-- And font awesome -->
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/public/font-awesome-4.7.0/css/font-awesome.min.css"  media="screen,projection"/>
 
-    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link href="{{ site.baseurl }}/public/css/main.css" rel="stylesheet">
+    
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+    
   </head>
+  
   <body>
-    <h1>{{ site.title }} - {{ page.title }}</h1>
-    {{ content }}
-    <br />
-    <div class="footer text-center">
-      &copy; Theorem Prover Museum Contributors - Last update at {{site.time}}
-    </div>
+
+    <header>
+      <!-- The page title -->
+      <nav class="top-nav">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a class="page-title">
+              {% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="container" id="body">
+          {{ content }}
+      </div>
+    </main>
+    
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col l10 s12">
+            <a href="https://github.com/theoremprover-museum/theoremprover-museum.github.io" title="GitHub" class="waves-effect waves-teal btn-flat">
+              <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          
+            <a href="{{ site.baseurl }}/atom.xml" title="Atom Feed" class="waves-effect waves-teal btn-flat">
+              <i class="fa fa-rss" aria-hidden="true"></i> Atom Feed
+            </a>
+
+            <a href="mailto:m.kohlhase@jacobs-university.de" title="Contact" class="waves-effect waves-teal btn-flat">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Contact
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container" style='text-align:center; '>
+          &copy; Theorem Prover Museum Contributors <br />
+          Licensed under GPL3 <br />
+          Last update at {{site.time}}
+        </div>
+      </div>
+    </footer>
+
+    <!-- And also jQuery -->
+    <script src="{{ site.baseurl }}/public/js/jquery-3.2.1.min.js"></script>
+    
+    <!-- Materialize javascript components -->
+    <script src="{{ site.baseurl }}/public/materialize/js/materialize.min.js"></script>
+    
   </body>
- </html>
+</html>

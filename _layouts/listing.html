@@ -2,11 +2,7 @@
 layout: default
 ---
 
-<div class="jumbotron">
-  <div class="container">
-    {{ content }}
-  </div>
-</div>
+{{ content }}
 
 {% if page.active %}
   {% assign provers = site.data.provers | where_exp: "prover","prover.active == true" %}
@@ -14,29 +10,33 @@ layout: default
   {% assign provers = site.data.provers | where_exp: "prover","prover.active == false"  %}
 {% endif %}
 
-<div class="container">
-  <div class="row">
-  {% for prover in provers %}
-        <div class="col-md-3">
-          <h2>{{ prover.name }}</h2>
-          <p>{{ prover.teaser }}</p>
-           <div class="btn-group">
-              {% assign repos = prover.repos | split: ',' %}
-              {% for r in repos %}
-                <a class="btn btn-primary" href="{{ r | trim }}" role="button">Repository</a>
-              {% endfor %}
-              {% if prover.swmath %}
-                <a class="btn btn-default" href="{{ prover.swmath }}" role="button">swMATH</a>
-              {% endif %}
-            </div>
-        </div>
+<!-- close the outer container and open a new one --></div><div class="container">
 
-        <!-- start a new row every 4 provers -->
-        {% assign count = forloop.index | modulo: 4 %}
-        {% if count == 0 %}
-          </div>      
-          <div class="row">
+  <div class="row">
+    {% for prover in provers %}
+      <div class="col s4">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">{{ prover.name }}</span>
+            <p>{{ prover.teaser }}</p>
+          </div>
+          <div class="card-action">
+            {% assign repos = prover.repos | split: ',' %}
+            {% for r in repos %}
+              <a href="{{ r | trim }}" role="button">Repository</a>
+            {% endfor %}
+            {% if prover.swmath %}
+              <a href="{{ prover.swmath }}" role="button">swMATH</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- start a new row every 3 provers -->
+      {% assign count = forloop.index | modulo: 3 %}
+      {% if count == 0 %}
+        </div>      
+        <div class="row">
       {% endif %}
-  {% endfor %}
+    {% endfor %}
   </div>
-</div>

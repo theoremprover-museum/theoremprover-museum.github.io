@@ -1,6 +1,6 @@
 ---
 title: Most Wanted List
-layout: jumbo
+layout: default
 ---
 
 # The Most Wanted List for the Theorem Prover Museum

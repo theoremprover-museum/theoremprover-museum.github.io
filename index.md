@@ -27,12 +27,20 @@ In particular this should lower the barrier of archiving systems here.
 
 ## Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
 
-{% for post in site.posts limit:5 %}
-  <p>
-    <a href="{{post.url}}">{{post.title}}</a><br />
-    <small>{{post.date | date: "%-d %B %Y" }}</small>
-  </p>
-{% endfor %}
+<ul class="collection">
+  {% for post in site.posts limit:5 %}
+    <li class="collection-item">
+      <a href="{{post.url}}" class="title">
+          {{post.title}}
+      </a>
+      <div>
+        <div class="chip">
+          {{post.date | date: "%-d %B %Y" }}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 
 ## Related Resources
 
