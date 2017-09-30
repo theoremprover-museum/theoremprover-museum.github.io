@@ -9,14 +9,14 @@ active: false
 Theorem provers are software systems that can find or check proofs for conjectures given in some logic. 
 Research in theorem proving system started with the logical theorist 1955 and has led to a succession of systems since. 
 
-Theorem provers are complex software systems that have pushed the envelope of artificial intelligence and programming, and as such they constitute important cultural artifacts. 
+Theorem provers are complex software systems that have pushed the envelope of artificial intelligence and programming, and as such they constitute important cultural artefacts. 
 
 With the current wave of retirements of the original principal investigators there is good chance that the systems are lost, when their group servers are shut down. 
 This web site aims to preserve the ones we can still get our hands on. 
 This idea is compatible with the [Software Heritage](https://www.softwareheritage.org) initiative, and contributes since it is based on [GitHub](https://github.com) repositories. 
 
 The term "museum" may be sound bit ambitious, since the exhibition and didactic interpretation of the theorem provers is beyond our scope (and perhaps abilities). 
-But the foremost function of a [museum](https://en.wikipedia.org/wiki/Museum) is the conservation of artifacts, which is what the "theorem prover museum" project intends to do. 
+But the foremost function of a [museum](https://en.wikipedia.org/wiki/Museum) is the conservation of artefacts, which is what the "theorem prover museum" project intends to do. 
 
 This site is the front-end to a collection of source code repositories for theorem provers (see below). 
 To exhibit your system here or suggest a system for inclusion ([most wanted list](/wanted/), [systems believed lost](/lost/)), please contact [Michael Kohlhase](mailto:m.kohlhase@jacobs-university.de). 
