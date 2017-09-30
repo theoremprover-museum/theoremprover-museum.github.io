@@ -20,11 +20,10 @@ The term "museum" may be sound bit ambitious, since the exhibition and didactic 
 But the foremost function of a [museum](https://en.wikipedia.org/wiki/Museum) is the conservation of artefacts, which is what the "theorem prover museum" project intends to do. 
 
 This site is the front-end to a collection of source code repositories for theorem provers (see below). 
-To exhibit your system here or suggest a system for inclusion ([most wanted list](/wanted/), [systems believed lost](/lost/)), please contact [Michael Kohlhase](mailto:m.kohlhase@jacobs-university.de). 
-See also [Contributors](/contributors/), [Community](/community/), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
-
-Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study. 
+Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study and aggregate meta-data about the systems. 
 In particular this should lower the barrier of archiving systems here. 
+
+See also [most wanted list](/wanted/), [systems believed lost](/lost/), [how to contribute](/contributors/), [Community](/community/), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
 
 ### Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
 
@@ -33,12 +32,7 @@ In particular this should lower the barrier of archiving systems here.
     <li class="collection-item">
       <a href="{{post.url}}" class="title">
           {{post.title}}
-      </a>
-      <div>
-        <div class="chip">
-          {{post.date | date: "%-d %B %Y" }}
-        </div>
-      </div>
+		  ({{post.date | date: "%-d %B %Y" }})
     </li>
   {% endfor %}
 </ul>
