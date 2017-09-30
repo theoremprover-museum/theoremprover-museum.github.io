@@ -1,6 +1,6 @@
 ---
 title: Systems Believed Lost
-layout: jumbo
+layout: default
 ---
 
 # Theorem Provers believed lost

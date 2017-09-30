@@ -1,6 +1,6 @@
 ---
 title: Related Resources
-layout: jumbo
+layout: default
 ---
 
 # Theorem Prover Resources

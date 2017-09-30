@@ -1,0 +1,94 @@
+
+.header {
+  color: #ee6e73;
+  font-weight: 300
+}
+
+.caption {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 30px
+}
+
+code, pre {
+  position: relative;
+  font-size: 1.1rem
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased
+}
+
+
+/* background color */
+.page-footer, 
+nav, .side-nav .collapsible-body > ul:not(.collapsible) > li.active, 
+.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active,
+.pagination li.active {
+  background-color: #5B78FD;
+}
+
+/* tabs color */
+.tabs .tab a{
+    color:#5B78FD;
+}
+.tabs .tab a:hover,.tabs .tab a.active {
+	background-color:transparent;
+	color:#5B78FD;
+}
+.tabs .tab.disabled a,.tabs .tab.disabled a:hover {
+	color:rgba(102,147,153,0.7);	
+}
+.tabs .indicator {
+	background-color: #5B78FD;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .nav-wrapper {
+    text-align: center
+  }
+  nav .nav-wrapper a.page-title {
+    font-size: 36px;
+    height: 36px;
+  }
+}
+
+a.button-collapse.top-nav {
+  position: absolute;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  left: 7.5%;
+  top: 0;
+  float: none;
+  margin-left: 1.5rem;
+  color: #fff;
+  font-size: 36px;
+  z-index: 2
+}
+
+a.button-collapse.top-nav.full {
+  line-height: 122px
+}
+
+a.button-collapse.top-nav i {
+  font-size: 32px
+}
+
+@media only screen and (max-width: 600px) {
+  a.button-collapse.top-nav {
+    left: 5%
+  }
+}
+
+
+/* footer size */
+
+footer {
+  color: #fff;
+  font-size: .9rem;
+}
+
+.page-footer .btn {
+  margin-bottom: 5px;
+}

@@ -3,62 +3,60 @@
     Expects the default jekyll 'paginator' as argument. 
 {% endcomment %}
 
-<nav aria-label="Page navigation">
-  <ul class="pagination">
-      
-      <!-- The previous page -->
-      {% if paginator.previous_page %}
-        <li>
-          <a href="{{ site.baseurl }}{{paginator.previous_page_path}}">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-      {% else %}
-        <li class="disabled">
-          <a href="#">
-            <span aria-hidden="true">&laquo;</span>
-          </a>
-        </li>
-      {% endif %}
-      
-      <!-- Show all the pages -->
-      {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
-              <li class='active'>
-                  <a href="#">
-                      {{page}}
-                  </a>
-              </li>
-          {% elsif page == 1 %}
-              <li>
-                  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                      {{page}}
-                  </a>
-              </li>
-          {% else %}
-              <li>
-                  <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-                      {{page}}
-                  </a>
-              </li>
-          {% endif %}
-      {% endfor %}
-      
-      
-      <!-- The next page -->
-      {% if paginator.next_page %}
-          <li>
-            <a href="{{ site.baseurl }}{{paginator.next_page_path}}" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
+<ul class="pagination">
+    
+    <!-- The previous page -->
+    {% if paginator.previous_page %}
+        <li class="waves-effect">
+            <a href="{{ site.baseurl }}{{paginator.previous_page_path}}">
+                <i class="material-icons">chevron_left</i>
             </a>
-          </li>
-      {% else %}
-        <li class="disabled">
-          <a href="{{ site.baseurl }}{{paginator.next_page_path}}" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-          </a>
         </li>
-      {% endif %}
-      
-  </ul>
-</nav>
+    {% else %}
+        <li class="disabled">
+            <a href="#!">
+                <i class="material-icons">chevron_left</i>
+            </a>
+        </li>
+    {% endif %}
+    
+    <!-- Show all the pages -->
+    {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+            <li class='active'>
+                <a href="#!">
+                    {{page}}
+                </a>
+            </li>
+        {% elsif page == 1 %}
+            <li class="waves-effect">
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                    {{page}}
+                </a>
+            </li>
+        {% else %}
+            <li class="waves-effect">
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+                    {{page}}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    
+    
+    <!-- The next page -->
+    {% if paginator.next_page %}
+        <li class="waves-effect">
+            <a href="{{ site.baseurl }}{{paginator.next_page_path}}">
+                <i class="material-icons">chevron_right</i>
+            </a>
+        </li>
+    {% else %}
+        <li class="disabled">
+            <a href="#!">
+                <i class="material-icons">chevron_right</i>
+            </a>
+        </li>
+    {% endif %}
+    
+</ul>

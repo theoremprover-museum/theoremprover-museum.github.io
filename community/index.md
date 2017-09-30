@@ -1,6 +1,6 @@
 ---
 title: Community
-layout: jumbo
+layout: default
 ---
 
 # Theorem Prover Museum: Community
