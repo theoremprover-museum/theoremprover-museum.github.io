@@ -2,6 +2,7 @@
 title: Museum
 layout: listing
 active: false
+status: museum
 ---
 
 # The Theorem Prover Museum

@@ -1,6 +1,8 @@
 ---
 title: Most Wanted List
-layout: default
+layout: listing
+active: false
+status: wanted
 ---
 
 # The Most Wanted List for the Theorem Prover Museum
@@ -23,9 +25,3 @@ Alan Bundy, Josef Urban, Jacques Fleuriot, Cezar Munoz, Freek Wiedijk, Jörg Sie
 
 
 We list theorem proving systems and their known associates (for contact) and state
-
-<ol>
-{% for item in site.data.wanted %}
-  <li>{{item}}</li>
-{% endfor %}
-</ol>

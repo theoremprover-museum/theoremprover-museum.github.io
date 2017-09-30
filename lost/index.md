@@ -1,6 +1,8 @@
 ---
 title: Systems Believed Lost
-layout: default
+layout: listing
+status: believed-lost
+active: false
 ---
 
 # Theorem Provers believed lost
@@ -13,8 +15,3 @@ We would love to move the systems back from this list.
 
 We list theorem proving systems and their known associates (for contact)
 
-<ol>
-{% for item in site.data.lost %}
-  <li>{{item}}</li>
-{% endfor %}
-</ol>

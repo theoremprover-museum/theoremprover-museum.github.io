@@ -4,11 +4,10 @@ layout: default
 
 {{ content }}
 
-{% if page.active %}
-  {% assign provers = site.data.provers | where_exp: "prover","prover.active == true" %}
-{% else %}
-  {% assign provers = site.data.provers | where_exp: "prover","prover.active == false"  %}
-{% endif %}
+{% assign provers = site.data.provers
+   | where_exp: "prover","prover.active == page.active" 
+   | where_exp: "prover","prover.status == page.status" 
+%}
 
 <!-- close the outer container and open a new one --></div><div class="container">
 
@@ -22,6 +21,9 @@ layout: default
 	    <table>
 	      {% if prover.authors %}
 	      <tr><th>authors:</th><td>{{ prover.authors}}</td></tr>
+	      {% endif %}
+	      {% if prover.note %}
+	      <tr><th>note:</th><td>{{ prover.note}}</td></tr>
 	      {% endif %}
 	    </table>
           </div>

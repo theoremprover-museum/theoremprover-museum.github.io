@@ -1,12 +1,14 @@
 - name: IMPS
   authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
   active: false
+  status: museum
   teaser: The IMPS Theorem Prover.
   repos: https://github.com/theoremprover-museum/imps
   swmath: http://swmath.org/software/9143
 
 - name: MKRP
   active: false
+  status: museum
   authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover written in Common Lisp
   repos: https://github.com/theoremprover-museum/MKRP
@@ -15,6 +17,7 @@
 - name: OMEGA
   authors: Jörg Siekmann, Detlef Fehrer, Christoph Benzmüller, Michael Kohlhase, Manfred Kerber
   active: false
+  status: museum
   teaser: A theorem prover for higher-order logic based on proof planning. 
   repos: https://github.com/theoremprover-museum/OMEGA
   swmath: http://swmath.org/software/19623
@@ -22,6 +25,7 @@
 - name: InKa
   authors: Dieter Hutter 
   active: false
+  status: museum
   teaser: An Inductive Theorem Prover
   repos: https://github.com/theoremprover-museum/InKa
   swmath: http://swmath.org/software/19610
@@ -29,6 +33,7 @@
 - name: Otter
   authors: William McCune 
   active: false
+  status: museum
   teaser: The first theorem prover for first-order logic with equality from the Argonne group that was widely distributed.
   repos: https://github.com/theoremprover-museum/otter
   swmath: http://swmath.org/software/2904
@@ -36,12 +41,14 @@
 - name: Mace
   authors: William McCune 
   active: false
+  status: museum
   teaser: The Argonne Model generator. 
   repos: https://github.com/theoremprover-museum/otter
 
 - name: Prover9 
   authors: William McCune 
   active: false
+  status: museum
   teaser:  Prover9 is the successor to Otter
   repos: https://github.com/theoremprover-museum/prover9
   swmath: http://swmath.org/software/4969
@@ -49,6 +56,7 @@
 - name: Mace4
   authors: William McCune 
   active: false
+  status: museum
   teaser: Mace4 is the successor of Mace.
   repos: https://github.com/theoremprover-museum/prover9
   swmath: http://swmath.org/software/6905
@@ -56,66 +64,78 @@
 - name: PRESS
   authors: Alan Bundy
   active: false
+  status: museum
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
   repos: https://github.com/theoremprover-museum/PRESS
   swmath: http://swmath.org/software/21327
 
 - name: LCF77
   active: false
+  status: museum
   teaser: The original Edinburgh LCF
   repos: https://github.com/theoremprover-museum/LCF77
   swmath: http://swmath.org/software/8360
 
 - name: TPS
   active: false
+  status: museum
   teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic.
   repos: https://github.com/theoremprover-museum/TPS
   swmath: http://swmath.org/software/973
 
 - name: ETPS
   active: false
+  status: museum
   teaser: ETPS is a subsystem of  TPS designed for interactive use by students in logic courses.
   repos: https://github.com/theoremprover-museum/TPS
   swmath: http://swmath.org/software/6302
 
 - name: HOL88
   active: false
+  status: museum
   teaser: The HOL System is an environment for interactive theorem proving in a higher-order logic. Its most outstanding feature is its high degree of programmability through the meta-language ML.
   repos: https://github.com/theoremprover-museum/HOL88
   swmath: http://swmath.org/software/19615
 
 - name: HOL90
   active: false
+  status: museum
   teaser: The  rational reconstruction of HOL88 
   repos: https://github.com/theoremprover-museum/HOL90
   swmath: http://swmath.org/software/19616
 
 - name: SNARK
+  authors: Mark Stickel
   active: false
+  status: museum
   teaser: SRI's New Automated Reasoning Kit
   repos: https://github.com/nilqed/SNARK, https://github.com/theoremprover-museum/SNARK
   swmath: http://swmath.org/software/19611
 
 - name: PRV
   active: false
+  status: museum
   teaser: 'PRV-Beweisprogramm really: an early theorem prover written in SNOBOL'
   repos: https://github.com/theoremprover-museum/PRV-Beweisprogramm
   swmath: http://swmath.org/software/19617
 
 - name: OSHL
   active: false
+  status: museum
   teaser: A general-purpose instance-based first-order automated theorem proving algorithm
   repos: https://github.com/theoremprover-museum/OSHL
   swmath: http://swmath.org/software/19628
 
 - name: CLIN
   active: false
+  status: museum
   teaser: A Semantically Guided First-Order Theorem Prover
   repos: https://github.com/theoremprover-museum/CLIN
   swmath: http://swmath.org/software/19618
 
 - name: NQTHM
   active: false
+  status: museum
   teaser: An improved version of the original Boyer-Moore theorem prover
   repos: https://github.com/John-Nagle/nqthm
   swmath: http://swmath.org/software/7543
@@ -123,18 +143,21 @@
 - name: clam2
   authors: Alan Bundy 
   active: false
+  status: museum
   teaser: A Prolog implementation of the proof planner Clam (in the clam2 development branch) and the associated theorem prover, oyster.
   repos: https://github.com/theoremprover-museum/clam2
   swmath: http://swmath.org/software/19620
 
 - name: Clam 3
   active: false
+  status: museum
   teaser: Prolog implementation of proof planner with critics, and some higher-order unification, in the v3 branch of Clam.
   repos: https://github.com/theoremprover-museum/clam3
   swmath: http://swmath.org/software/19621
 
 - name: LambdaClam
   active: false
+  status: museum
   teaser: A proof planning system that support proof planning over higher-order domains.
   repos: https://github.com/theoremprover-museum/lambdaclam
   swmath: http://swmath.org/software/19614
@@ -142,18 +165,21 @@
 - name: MUSCADET
   authors: Dominique Pastre
   active: false
+  status: museum
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
   repos: https://github.com/theoremprover-museum/muscadet
   swmath: http://swmath.org/software/6859
 
 - name: DISCOUNT
   active: false
+  status: museum
   teaser: A Distributed and Learning Equational Prover.
   repos: https://github.com/theoremprover-museum/discount
   swmath: http://swmath.org/software/19613
 
 - name: SAD
   active: false
+  status: museum
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
   swmath: http://swmath.org/software/9796
@@ -161,6 +187,7 @@
 - name: scunac
   authors: Chad Brown
   active: false
+  status: museum
   teaser: A proof checker and interactive theorem prover for dependently typed set theory.
   repos: https://github.com/theoremprover-museum/scunac
   swmath: http://swmath.org/software/21328
@@ -168,12 +195,14 @@
 - name: SETHEO
   authors: Johann Schumann, Wolfgang Bibel
   active: false
+  status: museum
   teaser: A first-order theorem prover based on the connection method.
   repos: https://github.com/theoremprover-museum/SETHEO
   swmath: http://swmath.org/software/707
 
 - name: ProCom
   active: false
+  status: museum
   teaser: A theorem prover based on the PTTP paradigm.
   repos: https://github.com/theoremprover-museum/ProCom
   swmath: http://swmath.org/software/21329
@@ -181,6 +210,7 @@
 - name: Logic Theorist
   authors: Alan Newell, Herbert Simon 
   active: false
+  status: museum
   teaser: The first theorem prover by Newell and Simon.
   repos: https://github.com/theoremprover-museum/logic-theorist
   swmath: http://swmath.org/software/21331
@@ -200,5 +230,197 @@
 - name: Ontic
   active: true
   teaser: to come soon
-  repos: ''
-  swmath: ''
+
+- name: Tatzelwurm
+  authors: Thomas Käufl &amp; Nicolas Zabel
+  active: false
+  status: wanted
+  note: cannot find the authors online
+
+- name: Gandalf
+  authors: Tannel Tammet
+  active: false
+  status: wanted
+  note: contacted Tannel Tammet 2017-04-07
+
+- name: PTTP
+  authors: Mark Stickel &#8224;
+  active: false
+  status: wanted
+
+- name: RRTP
+  authors: David Plaisted (or his students?)
+  active: false
+  status: wanted
+  note: David Plaisted promised to look for them
+
+- name: CLINC-S
+  authors: David Plaisted (or his students?)
+  active: false
+  status: wanted
+
+- name: Darwin
+  authors: Peter Baumgartner
+  active: false
+  status: wanted
+  note: Peter has been contacted but did not reply :-(
+
+- name: Scott
+  authors: John Slaney
+  active: false
+  status: wanted
+
+- name: many non-classical provers by Rajeev Gore
+  active: false
+  status: wanted
+  note:  they are <a href="http://users.cecs.anu.edu.au/~rpg/software.html">here</a>, hoping that Rajeev will package them himself
+
+- name: Nuprl 
+  authors: Bob Constable, Christoph Kreitz, et. al.
+  active: true
+  status: wanted
+  note: still being used, but maintained?
+
+- name: MetaPRL
+  active: false
+  status: wanted
+  note: <a href="http://metaprl.org">MetaPRL</a> has a SVN repos, but the last commit seems 8 years old
+
+- name: the provers in Robinson's resolution paper
+  authors: Alan Robinson
+  active: false
+  status: wanted
+
+- name: LEO I
+  authors:  Christoph Benzmüller
+  active: false
+  status: wanted
+
+- name: Chaff
+  active: false
+  status: wanted
+  note: zChaff is at http://www.princeton.edu/~chaff/zchaff.html, maybe they know older versions as well.
+
+- name: Larch 
+  authors: Stephen Garland, Guttag
+  active: false
+  status: wanted
+  note: look at Wikipedia and MMT page
+
+- name: Coq 1 
+  authors: Gerard Huet
+  active: false
+  status: wanted
+  note: George Gonthier will ask him
+
+- name: Matita 1
+  authors: Claudio Sacerdoti Coen et. al.
+  active: false
+  status: wanted
+
+- name: early Mizar 
+  authors: Andrzej Tryplec et. al. 
+  active: false
+  status: wanted
+  note: Adam Naumowicz will look for Mizar4
+
+- name: Oleg
+  author: Connor McBride
+  active: false
+  status: wanted
+
+- name: LeanTaP
+  author: Bernhard Beckert
+  active: false
+  status: wanted
+
+- name: LEGO
+  authors: Randy Pollack
+  active: false
+  status: wanted
+  note: <a href="http://www.dcs.ed.ac.uk/home/lego/">LEGO</a> (Randy Pollack contacted repeatedly)  	  
+
+- name: AM
+  authors: Doug Lenat
+  active: false
+  status: wanted
+  note:
+  wikipedia: https://en.wikipedia.org/wiki/Automated_Mathematician
+  note: there is a <a href="https://github.com/akkartik/am-utexas">prolog reimplementation</a>. Joerg Siekmann contact him repeatedly, but did not receive answer
+
+- name: EVES/NEVER
+  active: false
+  status: wanted
+  note: <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.31.5003">EVES/NEVER</a> (Kromodimoeljo, Pase, Saaltink, Craigen, Meisels) 
+
+- name: SAM 
+  authors: J. R. Guard, F. C. Oglesby, J. H. Bennett, L. G. Settle;
+  active: false
+  status: wanted
+  note: does anyone have contact to them?
+
+- name: The conjecturing systems by Simon Colton
+  active: false
+  status: wanted
+
+- name: Martin Davis's Presburger implementation
+  active: false
+  status: wanted
+
+- name: The first Davis-Putnam
+  active: false
+  status: wanted
+
+- name: The first DPLL implementation
+  active: false
+  status: wanted
+
+- name: Early model elimination / MESON (Don Loveland, Mark Stickel...)
+  active: false
+  status: wanted
+
+- name: Dag Prawitz's early unification-based prover
+  active: false
+  status: wanted
+
+- name: Paul Gilmore's early first-order prover
+  active: false
+  status: wanted
+  note:  <a href="http://www.legacy.com/obituaries/vancouversun/obituary.aspx?pid=174610982">see this for reference</a>
+
+- name: Hao Wang's AE prover and full FOL prover (IBM?)
+  active: false
+  status: wanted
+  note:  <a href="https://en.wikipedia.org/wiki/Hao_Wang_(academic)"> see here</a>
+
+- name: ALF, and related systems
+  active: false
+  status: wanted
+  note:  contacted Bengt Nordstrom 2017-04-06 and multiple afterwards
+
+- name: ?????
+  active: false
+  status: wanted
+  note: Chu (Austin) wrote a system with polynomials (J. Moore told me)
+
+- name: the ITP@Maude 
+  authors: Manuel Claudel
+  active: false
+  status: wanted
+  url: http://maude.sip.ucm.es/itp/
+  note: author contacted 2017-09-22
+
+- name: Automath 
+  active: false
+  status: believed-lost
+  note: contacted Rob Nederpelt, Freek Wiedijk, and Fairouz Kamareddine, they would know. 
+
+- name: Paul Abraham's proof checker 
+  active: false
+  status: believed-lost
+  note: In April 2017 Paul stated that he no longer has the stack of cards with the LISP code. 
+
+- name: The early Argonne provers AURA, LMA/ITP
+  active: false
+  status: believed-lost
+  note:  Russ Overbeek says it is too much work to retrieve them from tapes that he knows to exist in the basement.
