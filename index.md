@@ -25,7 +25,7 @@ See also [Contributors](/contributors/), [Community](/community/), [project/issu
 Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study. 
 In particular this should lower the barrier of archiving systems here. 
 
-## Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
+### Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
 
 {% for post in site.posts limit:5 %}
   <p>
@@ -34,9 +34,12 @@ In particular this should lower the barrier of archiving systems here.
   </p>
 {% endfor %}
 
-## Related Resources
+### Related Resources
 
 [Encyclopedia of proof systems](https://proofsystem.github.io/Encyclopedia/), [Wikipedia page](https://en.wikipedia.org/wiki/Automated_theorem_proving), [... more](/related/). 
 
 All theorem provers start out as active systems, eventually development gets discontinued as developers retire or move to newer systems. 
 Therefore we also maintain a list of [source code repositories of active theorem provers](/active/). 
+
+## Theorem Provers
+
