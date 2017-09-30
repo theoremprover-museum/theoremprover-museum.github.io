@@ -19,6 +19,11 @@ layout: default
           <div class="card-content">
             <span class="card-title">{{ prover.name }}</span>
             <p>{{ prover.teaser }}</p>
+	    <table>
+	      {% if prover.authors %}
+	      <tr><th>authors:</th><td>{{ prover.authors}}</td></tr>
+	      {% endif %}
+	    </table>
           </div>
           <div class="card-action">
             {% assign repos = prover.repos | split: ',' %}

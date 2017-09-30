@@ -1,4 +1,5 @@
 - name: IMPS
+  authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
   active: false
   teaser: The IMPS Theorem Prover.
   repos: https://github.com/theoremprover-museum/imps
@@ -6,46 +7,54 @@
 
 - name: MKRP
   active: false
+  authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover written in Common Lisp
   repos: https://github.com/theoremprover-museum/MKRP
   swmath: http://swmath.org/software/19606
 
 - name: OMEGA
+  authors: Jörg Siekmann, Detlef Fehrer, Christoph Benzmüller, Michael Kohlhase, Manfred Kerber
   active: false
   teaser: A theorem prover for higher-order logic based on proof planning. 
   repos: https://github.com/theoremprover-museum/OMEGA
   swmath: http://swmath.org/software/19623
 
 - name: InKa
+  authors: Dieter Hutter 
   active: false
   teaser: An Inductive Theorem Prover
   repos: https://github.com/theoremprover-museum/InKa
   swmath: http://swmath.org/software/19610
 
-- name: Otter 
+- name: Otter
+  authors: William McCune 
   active: false
   teaser: The first theorem prover for first-order logic with equality from the Argonne group that was widely distributed.
   repos: https://github.com/theoremprover-museum/otter
   swmath: http://swmath.org/software/2904
 
 - name: Mace
+  authors: William McCune 
   active: false
   teaser: The Argonne Model generator. 
   repos: https://github.com/theoremprover-museum/otter
 
 - name: Prover9 
+  authors: William McCune 
   active: false
   teaser:  Prover9 is the successor to Otter
   repos: https://github.com/theoremprover-museum/prover9
   swmath: http://swmath.org/software/4969
 
 - name: Mace4
+  authors: William McCune 
   active: false
   teaser: Mace4 is the successor of Mace.
   repos: https://github.com/theoremprover-museum/prover9
   swmath: http://swmath.org/software/6905
 
 - name: PRESS
+  authors: Alan Bundy
   active: false
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
   repos: https://github.com/theoremprover-museum/PRESS
@@ -59,9 +68,15 @@
 
 - name: TPS
   active: false
-  teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic. The subsystem ETPS is designed for interactive use by students in logic courses.
+  teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic.
   repos: https://github.com/theoremprover-museum/TPS
   swmath: http://swmath.org/software/973
+
+- name: ETPS
+  active: false
+  teaser: ETPS is a subsystem of  TPS designed for interactive use by students in logic courses.
+  repos: https://github.com/theoremprover-museum/TPS
+  swmath: http://swmath.org/software/6302
 
 - name: HOL88
   active: false
@@ -106,6 +121,7 @@
   swmath: http://swmath.org/software/7543
 
 - name: clam2
+  authors: Alan Bundy 
   active: false
   teaser: A Prolog implementation of the proof planner Clam (in the clam2 development branch) and the associated theorem prover, oyster.
   repos: https://github.com/theoremprover-museum/clam2
@@ -124,6 +140,7 @@
   swmath: http://swmath.org/software/19614
 
 - name: MUSCADET
+  authors: Dominique Pastre
   active: false
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
   repos: https://github.com/theoremprover-museum/muscadet
@@ -142,12 +159,14 @@
   swmath: http://swmath.org/software/9796
 
 - name: scunac
+  authors: Chad Brown
   active: false
   teaser: A proof checker and interactive theorem prover for dependently typed set theory.
   repos: https://github.com/theoremprover-museum/scunac
   swmath: http://swmath.org/software/21328
 
 - name: SETHEO
+  authors: Johann Schumann, Wolfgang Bibel
   active: false
   teaser: A first-order theorem prover based on the connection method.
   repos: https://github.com/theoremprover-museum/SETHEO
@@ -160,6 +179,7 @@
   swmath: http://swmath.org/software/21329
 
 - name: Logic Theorist
+  authors: Alan Newell, Herbert Simon 
   active: false
   teaser: The first theorem prover by Newell and Simon.
   repos: https://github.com/theoremprover-museum/logic-theorist
@@ -169,13 +189,13 @@
   active: true
   teaser: A Computational Logic for Applicative Common Lisp
   repos: https://github.com/acl2/acl2
-  swmath: ''
+  swmath: http://swmath.org/software/00060
 
 - name: Isabelle
   active: true
   teaser: A Generic Theorem Prover
   repos: http://isabelle.in.tum.de/repos/isabelle
-  swmath: ''
+  swmath: http://swmath.org/software/00454
 
 - name: Ontic
   active: true
