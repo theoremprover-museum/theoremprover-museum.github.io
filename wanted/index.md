@@ -7,7 +7,7 @@ layout: default
 
 The following theorem provers are not featured in the <a href="/">Theorem Prover Museum</a> but are important cultural artifacts. 
 We list the system and known associates here. 
-There is also a list of <a href="/losta/">systems believed lost</a>.
+There is also a list of <a href="/lost/">systems believed lost</a>.
 
 
 Note that the Theorem Prover Museum wants to preserve the (stable) source code of theorem proving systems that are no longer under active development. 
