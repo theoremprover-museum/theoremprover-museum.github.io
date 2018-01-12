@@ -204,7 +204,7 @@
   authors: Gerd Neugebauer &amp; Uwe Petermann
   active: false
   status: museum
-  development: 1992--1995
+  development: 1992-1995
   homepage: http://koralle.htwk-leipzig.de/ProCom/index.html
   teaser: A theorem prover based on the PTTP paradigm.
   repos: https://github.com/theoremprover-museum/ProCom
