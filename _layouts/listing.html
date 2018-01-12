@@ -20,7 +20,7 @@ layout: default
             <p>{{ prover.teaser }}</p>
 	    <table>
 	      {% if prover.homepage %}
-	      <tr><th>home page:</th><td>{{ prover.homepage }}</td></tr>
+	      <tr><th>home page:</th><td><a href="{{ prover.homepage }}">{{ prover.homepage }}</a></td></tr>
 	      {% endif %}
 	      {% if prover.authors %}
 	      <tr><th>authors:</th><td>{{ prover.authors }}</td></tr>
