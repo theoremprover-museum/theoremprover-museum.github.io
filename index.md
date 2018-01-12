@@ -33,6 +33,7 @@ See also [most wanted list](/wanted/), [systems believed lost](/lost/), [how to 
       <a href="{{post.url}}" class="title">
           {{post.title}}
 		  ({{post.date | date: "%-d %B %Y" }})
+     </a>
     </li>
   {% endfor %}
 </ul>
