@@ -19,8 +19,20 @@ layout: default
             <span class="card-title">{{ prover.name }}</span>
             <p>{{ prover.teaser }}</p>
 	    <table>
+	      {% if prover.homepage %}
+	      <tr><th>home page:</th><td>{{ prover.homepage }}</td></tr>
+	      {% endif %}
 	      {% if prover.authors %}
-	      <tr><th>authors:</th><td>{{ prover.authors}}</td></tr>
+	      <tr><th>authors:</th><td>{{ prover.authors }}</td></tr>
+	      {% endif %}
+	      {% if prover.note %}
+	      <tr><th>development:</th><td>{{ prover.development}}</td></tr>
+	      {% endif %}
+	      {% if prover.license %}
+	      <tr><th>license:</th><td>{{ prover.license}}</td></tr>
+	      {% endif %}
+	      {% if prover.language %}
+	      <tr><th>language:</th><td>{{ prover.language}}</td></tr>
 	      {% endif %}
 	      {% if prover.note %}
 	      <tr><th>note:</th><td>{{ prover.note}}</td></tr>
