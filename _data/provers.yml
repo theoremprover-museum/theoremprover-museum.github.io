@@ -201,11 +201,16 @@
   swmath: http://swmath.org/software/707
 
 - name: ProCom
+  authors: Gerd Neugebauer &amp; Uwe Petermann
   active: false
   status: museum
+  development: 1992--1995
+  homepage: http://koralle.htwk-leipzig.de/ProCom/index.html
   teaser: A theorem prover based on the PTTP paradigm.
   repos: https://github.com/theoremprover-museum/ProCom
   swmath: http://swmath.org/software/21329
+  license: GPL V1
+  language: (ECLiPSe) Prolog
 
 - name: Logic Theorist
   authors: Alan Newell, Herbert Simon 
