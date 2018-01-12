@@ -30,10 +30,8 @@ See also [most wanted list](/wanted/), [systems believed lost](/lost/), [how to 
 <ul class="collection">
   {% for post in site.posts limit:5 %}
     <li class="collection-item">
-      <a href="{{post.url}}" class="title">
-          {{post.title}}
+      <a href="{{post.url}}" class="title">{{post.title}}</a>
 		  ({{post.date | date: "%-d %B %Y" }})
-     </a>
     </li>
   {% endfor %}
 </ul>
