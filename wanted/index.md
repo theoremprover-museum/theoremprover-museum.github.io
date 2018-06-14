@@ -14,7 +14,7 @@ There is also a list of <a href="/lost/">systems believed lost</a>.
 
 Note that the Theorem Prover Museum wants to preserve the (stable) source code of theorem proving systems that are no longer under active development. 
 Active systems typically have repositories of their own. 
-We <a href="active/">list them separately</a>.
+We <a href="/active/">list them separately</a>.
 
 If you know the last authors/maintainers and please contact them and ask them to contribute the sources. 
 To contribute source code or suggest a system for inclusion, please contact <a href="mailto:m.kohlhase@jacobs-university.de">Michael Kohlhase</a>. 
