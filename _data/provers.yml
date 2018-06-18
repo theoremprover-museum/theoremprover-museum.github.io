@@ -80,7 +80,7 @@
 - name: TPS
   active: false
   status: museum
-authors: Peter Andreas, Frank Pfenning, Dale Miller, Sunil Issar, Hongwei Xi, Mathhew Bishop, Chad Brown
+  authors: Peter Andreas, Frank Pfenning, Dale Miller, Sunil Issar, Hongwei Xi, Mathhew Bishop, Chad Brown
   teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic.
   repos: https://github.com/theoremprover-museum/TPS
   language: Comon Lisp
