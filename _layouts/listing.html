@@ -22,13 +22,16 @@ layout: default
 	      {% if prover.homepage %}
 	      <tr><th>home page:</th><td><a href="{{ prover.homepage }}">{{ prover.homepage }}</a></td></tr>
 	      {% endif %}
+	      {% if prover.wikipedia %}
+	      <tr><th>wikipedia:</th><td><a href="{{ prover.wikipedia }}">{{ prover.wikipedia }}</a></td></tr>
+	      {% endif %}
 	      {% if prover.authors %}
 	      <tr><th>authors:</th><td>{{ prover.authors }}</td></tr>
 	      {% endif %}
 	      {% if prover.maintainers %}
 	      <tr><th>maintainers:</th><td>{{ prover.maintainers }}</td></tr>
 	      {% endif %}
-	      {% if prover.note %}
+	      {% if prover.development %}
 	      <tr><th>development:</th><td>{{ prover.development}}</td></tr>
 	      {% endif %}
 	      {% if prover.license %}
