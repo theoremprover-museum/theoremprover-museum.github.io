@@ -1,4 +1,8 @@
-The data files of the Theorem Prover Museum. They are used to generate the web pages of the museum
+The data files of the Theorem Prover Museum. They are used to generate the web pages of
+the museum. To contribute, please
+[make a pull request](https://help.github.com/articles/using-pull-requests), for instance
+by directly editing [`provers.yml`](provers.yml) and then choosing "create a new branch
+..." at the bottom.
 
 ### The Theorem Provers Data Base
 `provers.yml` is a structured list of theorem provers. For each theorem prover we collect
