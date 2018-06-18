@@ -433,3 +433,13 @@
   active: false
   status: believed-lost
   note:  Russ Overbeek says it is too much work to retrieve them from tapes that he knows to exist in the basement.
+
+- name: Class, Int
+  active: true
+  status: museum
+  homepage: http://class-int.narod.ru/
+  authors: Oleg Okhotnikov, Yuri Vtorushin
+  development: 2004-2007
+  language: C++
+  note: This is an early variant of our system, which we used in practical classes at the university; we plan to resume development in the near future
+  
