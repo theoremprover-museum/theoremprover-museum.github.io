@@ -474,7 +474,7 @@
   active: false
   TPMarchive: PLTP
   status: museum
-  authors: J Strother Moore, Robert S. Boyer (Grant O. Passmore: OCaml Reimplementation) 
+  authors: "J Strother Moore, Robert S. Boyer (Grant O. Passmore: OCaml Reimplementation)" 
   development: 1972/3
   language: Pure Lisp
   note: the code is still linked from the ACL github repository.     
