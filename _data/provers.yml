@@ -121,8 +121,10 @@
 - name: PRV
   active: false
   status: museum
-  teaser: PRV-Beweisprogramm really: an early theorem prover written in SNOBOL
+  authors: Wolfgang Bibel
+  teaser: an early theorem prover written in SNOBOL
   TPMarchive: PRV-Beweisprogramm
+  language: SNOBOL
   swmath: http://swmath.org/software/19617
 
 - name: OSHL
