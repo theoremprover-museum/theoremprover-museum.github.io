@@ -41,12 +41,10 @@ layout: default
 	      <tr><th>language:</th><td>{{ prover.language}}</td></tr>
 	      {% endif %}
 	      {% if prover.repos %}
-	      <tr><th>Repository:</th><td>
-              {% assign repos = prover.repos | split: ',' %}
-              {% for r in repos %}
-	      <a href="{{ prover.repos | trim }}">R</a>
-              {% endfor %}
-	      </td></tr>
+  	        <tr><th>Repository:</th><td>
+                {% assign repos = prover.repos | split: ',' %}
+                {% for r in repos %}<a href="{{ prover.repos | trim }}">R</a>{% endfor %}
+	        </td></tr>
 	      {% endif %}      
 	      {% if prover.note %}
 	      <tr><th>note:</th><td>{{ prover.note}}</td></tr>
