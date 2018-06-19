@@ -310,7 +310,7 @@
   status: wanted
   note: <a href="http://metaprl.org">MetaPRL</a> has a SVN repos, but the last commit seems 8 years old
 
-- name: the provers in Robinson's resolution paper
+- name: the provers in the  resolution paper by Alan Robinson
   authors: Alan Robinson
   active: false
   status: wanted
@@ -390,7 +390,7 @@
   active: false
   status: wanted
 
-- name: Martin Davis's Presburger implementation
+- name: "Martin Davis' Presburger implementation"
   active: false
   status: wanted
 
@@ -415,7 +415,7 @@
   status: wanted
   note:  <a href="http://www.legacy.com/obituaries/vancouversun/obituary.aspx?pid=174610982">see this for reference</a>
 
-- name: Hao Wang's AE prover and full FOL prover (IBM?)
+- name: "Hao Wang's AE prover and full FOL prover (IBM?)"
   active: false
   status: wanted
   note:  <a href="https://en.wikipedia.org/wiki/Hao_Wang_(academic)"> see here</a>
@@ -442,7 +442,7 @@
   status: believed-lost
   note: contacted Rob Nederpelt, Freek Wiedijk, and Fairouz Kamareddine, they would know. 
 
-- name: Paul Abraham's proof checker 
+- name: "Paul Abraham's proof checker"
   active: false
   status: believed-lost
   note: In April 2017 Paul stated that he no longer has the stack of cards with the LISP code. 
@@ -455,6 +455,7 @@
 - name: Class, Int
   active: true
   status: museum
+  TPMarchive: ClassInt
   homepage: http://class-int.narod.ru/
   authors: Oleg Okhotnikov, Yuri Vtorushin
   development: 2004-2007
