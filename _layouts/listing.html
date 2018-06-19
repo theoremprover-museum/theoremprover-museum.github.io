@@ -40,16 +40,23 @@ layout: default
 	      {% if prover.language %}
 	      <tr><th>language:</th><td>{{ prover.language}}</td></tr>
 	      {% endif %}
+	      {% if prover.repos %}
+  	        <tr><th>Repository:</th><td>
+                {% assign repos = prover.repos | split: ',' %}
+                {% for r in repos %}
+		   <a href="{{ prover.repos | trim }}">R{{ forloop.index }}</a>
+		{% endfor %}
+	        </td></tr>
+	      {% endif %}      
 	      {% if prover.note %}
 	      <tr><th>note:</th><td>{{ prover.note}}</td></tr>
 	      {% endif %}
 	    </table>
           </div>
           <div class="card-action">
-            {% assign repos = prover.repos | split: ',' %}
-            {% for r in repos %}
-              <a href="{{ r | trim }}" role="button">Repository</a>
-            {% endfor %}
+	    {% if prover.TPMarchive %}
+	      <a href="https://github.com/theoremprover-museum/{{ prover.TPMarchive | trim }}" role="button">TPM Archive</a>
+	    {% endif %}
             {% if prover.swmath %}
               <a href="{{ prover.swmath }}" role="button">swMATH</a>
             {% endif %}
