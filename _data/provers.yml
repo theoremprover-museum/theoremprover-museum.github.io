@@ -473,6 +473,7 @@
 - name: PLTP
   active: false
   TPMarchive: PLTP
+  status: museum
   authors: J Strother Moore, Robert S. Boyer (Grant O. Passmore: OCaml Reimplementation) 
   development: 1972/3
   language: Pure Lisp
