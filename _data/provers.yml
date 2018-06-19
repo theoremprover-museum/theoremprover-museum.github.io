@@ -239,6 +239,12 @@
   teaser: A Generic Theorem Prover
   repos: http://isabelle.in.tum.de/repos/isabelle
   swmath: http://swmath.org/software/00454
+  homepage: https://isabelle.in.tum.de
+  authors: Tobias Nipkow, Lawrence Paulson, Makarius Wenzel and numerous others
+  wikipedia: https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)
+  development: 1985-
+  language: Standard ML and Scala
+  license: BSD
 
 - name: Ontic
   active: true
@@ -437,3 +443,13 @@
   active: false
   status: believed-lost
   note:  Russ Overbeek says it is too much work to retrieve them from tapes that he knows to exist in the basement.
+
+- name: RDL
+  authors: Alessandro Armando, Luca Compagna, Silvio Ranise
+  active: false
+  TPMarchive: RDL
+  status: museum
+  teaser:  Rewrite and Decision Procedure Laboratory
+  language: Prolog
+  license: GPL 3.0
+  repos: http://github.com/alessandroarmando/RDL
