@@ -3,7 +3,7 @@
   active: false
   status: museum
   teaser: The IMPS Theorem Prover.
-  repos: https://github.com/theoremprover-museum/imps
+  TPMarchive: imps
   swmath: http://swmath.org/software/9143
 
 - name: MKRP
@@ -11,7 +11,7 @@
   status: museum
   authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover written in Common Lisp
-  repos: https://github.com/theoremprover-museum/MKRP
+  TPMarchive: MKRP
   swmath: http://swmath.org/software/19606
 
 - name: OMEGA
@@ -20,7 +20,7 @@
   status: museum
   teaser: A theorem prover for higher-order logic based on proof planning.
   language: Common Lisp
-  repos: https://github.com/theoremprover-museum/OMEGA
+  TPMarchive: OMEGA
   swmath: http://swmath.org/software/19623
 
 - name: InKa
@@ -28,7 +28,7 @@
   active: false
   status: museum
   teaser: An Inductive Theorem Prover
-  repos: https://github.com/theoremprover-museum/InKa
+  TPMarchive: InKa
   swmath: http://swmath.org/software/19610
 
 - name: Otter
@@ -36,7 +36,7 @@
   active: false
   status: museum
   teaser: The first theorem prover for first-order logic with equality from the Argonne group that was widely distributed.
-  repos: https://github.com/theoremprover-museum/otter
+  TPMarchive: otter
   swmath: http://swmath.org/software/2904
 
 - name: Mace
@@ -44,14 +44,14 @@
   active: false
   status: museum
   teaser: The Argonne Model generator. 
-  repos: https://github.com/theoremprover-museum/otter
+  TPMarchive: otter
 
 - name: Prover9 
   authors: William McCune 
   active: false
   status: museum
   teaser:  Prover9 is the successor to Otter
-  repos: https://github.com/theoremprover-museum/prover9
+  TPMarchive: prover9
   swmath: http://swmath.org/software/4969
 
 - name: Mace4
@@ -59,7 +59,7 @@
   active: false
   status: museum
   teaser: Mace4 is the successor of Mace.
-  repos: https://github.com/theoremprover-museum/prover9
+  TPMarchive: prover9
   swmath: http://swmath.org/software/6905
 
 - name: PRESS
@@ -67,14 +67,14 @@
   active: false
   status: museum
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
-  repos: https://github.com/theoremprover-museum/PRESS
+  TPMarchive: PRESS
   swmath: http://swmath.org/software/21327
 
 - name: LCF77
   active: false
   status: museum
   teaser: The original Edinburgh LCF
-  repos: https://github.com/theoremprover-museum/LCF77
+  TPMarchive: LCF77
   swmath: http://swmath.org/software/8360
 
 - name: TPS
@@ -82,15 +82,16 @@
   status: museum
   authors: Peter Andreas, Frank Pfenning, Dale Miller, Sunil Issar, Hongwei Xi, Mathhew Bishop, Chad Brown
   teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic.
-  repos: https://github.com/theoremprover-museum/TPS
+  TPMarchive: TPS
   language: Comon Lisp
   swmath: http://swmath.org/software/973
 
 - name: ETPS
   active: false
+  authors: Peter Andreas, Frank Pfenning, Dale Miller, Sunil Issar
   status: museum
   teaser: ETPS is a subsystem of  TPS designed for interactive use by students in logic courses.
-  repos: https://github.com/theoremprover-museum/TPS
+  TPMarchive: TPS
   language: Common Lisp
   swmath: http://swmath.org/software/6302
 
@@ -98,43 +99,44 @@
   active: false
   status: museum
   teaser: The HOL System is an environment for interactive theorem proving in a higher-order logic. Its most outstanding feature is its high degree of programmability through the meta-language ML.
-  repos: https://github.com/theoremprover-museum/HOL88
+  TPMarchive: HOL88
   swmath: http://swmath.org/software/19615
 
 - name: HOL90
   active: false
   status: museum
   teaser: The  rational reconstruction of HOL88 
-  repos: https://github.com/theoremprover-museum/HOL90
+  TPMarchive: HOL90
   swmath: http://swmath.org/software/19616
 
 - name: SNARK
   authors: Mark Stickel
   active: false
   status: museum
-  teaser: SRI's New Automated Reasoning Kit
-  repos: https://github.com/nilqed/SNARK, https://github.com/theoremprover-museum/SNARK
+  teaser: SRIs New Automated Reasoning Kit
+  repos: https://github.com/nilqed/SNARK
+  TPMarchive: SNARK
   swmath: http://swmath.org/software/19611
 
 - name: PRV
   active: false
   status: museum
-  teaser: 'PRV-Beweisprogramm really: an early theorem prover written in SNOBOL'
-  repos: https://github.com/theoremprover-museum/PRV-Beweisprogramm
+  teaser: PRV-Beweisprogramm really: an early theorem prover written in SNOBOL
+  TPMarchive: PRV-Beweisprogramm
   swmath: http://swmath.org/software/19617
 
 - name: OSHL
   active: false
   status: museum
   teaser: A general-purpose instance-based first-order automated theorem proving algorithm
-  repos: https://github.com/theoremprover-museum/OSHL
+  TPMarchive: OSHL
   swmath: http://swmath.org/software/19628
 
 - name: CLIN
   active: false
   status: museum
   teaser: A Semantically Guided First-Order Theorem Prover
-  repos: https://github.com/theoremprover-museum/CLIN
+  TPMarchive: CLIN
   swmath: http://swmath.org/software/19618
 
 - name: NQTHM
@@ -149,21 +151,21 @@
   active: false
   status: museum
   teaser: A Prolog implementation of the proof planner Clam (in the clam2 development branch) and the associated theorem prover, oyster.
-  repos: https://github.com/theoremprover-museum/clam2
+  TPMarchive: clam2
   swmath: http://swmath.org/software/19620
 
 - name: Clam 3
   active: false
   status: museum
   teaser: Prolog implementation of proof planner with critics, and some higher-order unification, in the v3 branch of Clam.
-  repos: https://github.com/theoremprover-museum/clam3
+  TPMarchive: clam3
   swmath: http://swmath.org/software/19621
 
 - name: LambdaClam
   active: false
   status: museum
   teaser: A proof planning system that support proof planning over higher-order domains.
-  repos: https://github.com/theoremprover-museum/lambdaclam
+  TPMarchive: lambdaclam
   swmath: http://swmath.org/software/19614
 
 - name: MUSCADET
@@ -171,14 +173,14 @@
   active: false
   status: museum
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
-  repos: https://github.com/theoremprover-museum/muscadet
+  TPMarchive: muscadet
   swmath: http://swmath.org/software/6859
 
 - name: DISCOUNT
   active: false
   status: museum
   teaser: A Distributed and Learning Equational Prover.
-  repos: https://github.com/theoremprover-museum/discount
+  TPMarchive: discount
   swmath: http://swmath.org/software/19613
 
 - name: SAD
@@ -193,7 +195,7 @@
   active: false
   status: museum
   teaser: A proof checker and interactive theorem prover for dependently typed set theory.
-  repos: https://github.com/theoremprover-museum/scunac
+  TPMarchive: scunac
   swmath: http://swmath.org/software/21328
 
 - name: SETHEO
@@ -201,7 +203,7 @@
   active: false
   status: museum
   teaser: A first-order theorem prover based on the connection method.
-  repos: https://github.com/theoremprover-museum/SETHEO
+  TPMarchive: SETHEO
   swmath: http://swmath.org/software/707
 
 - name: ProCom
@@ -211,7 +213,7 @@
   development: 1992-1995
   homepage: http://koralle.htwk-leipzig.de/ProCom/index.html
   teaser: A theorem prover based on the PTTP paradigm.
-  repos: https://github.com/theoremprover-museum/ProCom
+  TPMarchive: ProCom
   swmath: http://swmath.org/software/21329
   license: GPL V1
   language: (ECLiPSe) Prolog
@@ -221,7 +223,7 @@
   active: false
   status: museum
   teaser: The first theorem prover by Newell and Simon.
-  repos: https://github.com/theoremprover-museum/logic-theorist
+  TPMarchive: logic-theorist
   swmath: http://swmath.org/software/21331
 
 - name: ACL2

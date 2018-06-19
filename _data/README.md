@@ -18,7 +18,9 @@ And now the optional fields that can be used to describe the systems.
 * `homepage`: the system home page (if one still exists).
 * `authors`:  the (main) authors of the system.
 * `maintainers`: the (key) maintainers of the system that are not mentioned under `authors`
-* `repos`: the URI of the source code repository (we need this for listing). This is usually in the `theoremprover-museum` organization, but can also be external. If it is a repository outside of GitHub, we maintain our own fork and keep it up to date.  
+* `TPMarchive`: name of the Theorm Prover Museum archive, i.e. a repository under
+  <https://github.com/theoremprover-museum>. For active sytems, there can also be a code repository: 
+* `repos`: a comma-separated list of URIs of active source code repositories for this system. 
 * `swmath`: the URI where the system can be found on the [swMATH](http://swmath.org) information  system.
 * `wikipedia`: the wikipedia page
 * `development`: the years of development (format: `yyyy-yyyy`). 
