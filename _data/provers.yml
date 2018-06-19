@@ -4,6 +4,7 @@
   status: museum
   teaser: The IMPS Theorem Prover.
   TPMarchive: imps
+  language: Scheme, Common Lisp 
   swmath: http://swmath.org/software/9143
 
 - name: MKRP
@@ -12,6 +13,7 @@
   authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover written in Common Lisp
   TPMarchive: MKRP
+  language: Common Lisp
   swmath: http://swmath.org/software/19606
 
 - name: OMEGA
@@ -68,6 +70,7 @@
   status: museum
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
   TPMarchive: PRESS
+  language: Prolog
   swmath: http://swmath.org/software/21327
 
 - name: LCF77
@@ -154,6 +157,7 @@
   status: museum
   teaser: A Prolog implementation of the proof planner Clam (in the clam2 development branch) and the associated theorem prover, oyster.
   TPMarchive: clam2
+  language: Prolog
   swmath: http://swmath.org/software/19620
 
 - name: Clam 3
@@ -161,6 +165,7 @@
   status: museum
   teaser: Prolog implementation of proof planner with critics, and some higher-order unification, in the v3 branch of Clam.
   TPMarchive: clam3
+  language: Prolog
   swmath: http://swmath.org/software/19621
 
 - name: LambdaClam
@@ -313,6 +318,7 @@
 - name: LEO I
   authors:  Christoph Benzmüller
   active: false
+  language: Common Lisp
   status: wanted
 
 - name: Chaff
@@ -341,6 +347,7 @@
   authors: Andrzej Tryplec et. al. 
   active: false
   status: wanted
+  language: Pascal
   note: Adam Naumowicz will look for Mizar4
 
 - name: Oleg
@@ -351,6 +358,7 @@
 - name: LeanTaP
   author: Bernhard Beckert
   active: false
+  language: Prolog
   status: wanted
 
 - name: LEGO
