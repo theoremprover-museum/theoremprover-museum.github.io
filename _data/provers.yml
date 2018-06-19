@@ -11,7 +11,7 @@
   active: false
   status: museum
   authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
-  teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover written in Common Lisp
+  teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover
   TPMarchive: MKRP
   language: Common Lisp
   swmath: http://swmath.org/software/19606
@@ -470,3 +470,10 @@
   language: C++
   note: This is an early variant of our system, which we used in practical classes at the university; we plan to resume development in the near future
   
+- name: PLTP
+  active: false
+  TPMarchive: PLTP
+  authors: J Strother Moore, Robert S. Boyer (Grant O. Passmore: OCaml Reimplementation) 
+  development: 1972/3
+  language: Pure Lisp
+  note: the code is still linked from the ACL github repository.     
