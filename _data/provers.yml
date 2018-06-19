@@ -302,7 +302,6 @@
 - name: Nuprl 
   authors: Bob Constable, Christoph Kreitz, et. al.
   active: true
-  status: wanted
   note: still being used, but maintained?
 
 - name: MetaPRL
@@ -462,9 +461,8 @@
   license: GPL 3.0
   repos: http://github.com/alessandroarmando/RDL
 
-- name: Class, Int
+- name: "Class, Int"
   active: true
-  status: museum
   TPMarchive: ClassInt
   homepage: http://class-int.narod.ru/
   authors: Oleg Okhotnikov, Yuri Vtorushin
