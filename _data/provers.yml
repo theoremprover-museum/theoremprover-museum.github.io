@@ -243,6 +243,7 @@
   active: true
   teaser: A Generic Theorem Prover
   repos: http://isabelle.in.tum.de/repos/isabelle
+  TPMarchive: isabelle
   swmath: http://swmath.org/software/00454
   homepage: https://isabelle.in.tum.de
   authors: Tobias Nipkow, Lawrence Paulson, Makarius Wenzel and numerous others
@@ -253,6 +254,7 @@
 
 - name: Ontic
   active: true
+  authors: David McAllister et al.
   teaser: to come soon
 
 - name: Tatzelwurm
