@@ -480,3 +480,13 @@
   development: 1972/3
   language: Pure Lisp
   note: the code is still linked from the ACL github repository.     
+
+ - name: EQP
+  active: false
+  TPMarchive: EQP
+  swmath: 15620
+  status: museum
+  authors: William McCune
+  wikipedia: https://en.wikipedia.org/wiki/EQP
+  homepage: http://www.cs.unm.edu/~mccune/eqp/
+  language: C
