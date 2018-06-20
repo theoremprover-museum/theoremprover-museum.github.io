@@ -16,19 +16,19 @@ We are grateful to [GitHub.com](http://github.com) for their service to the open
 
 * If you want to help with the site admin, the presentation of theorem provers, ... We collect suggestions and plans on the [the issue tracker of the web site repository](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
 * If you have access (and rights) to (the sources of) a system, you can "donate" them to the museum
-  1. you give [us](mailto:michael.kohlhase@fau.de) a list of repository names, then I will make them for you unter http://github.com/theoremprover-museum
-  1. you give [us](mailto:michael.kohlhase@fau.de) your GitHub account name, and [we](mailto:michael.kohlhase@fau.de) will make you admin to these repositories.
-  1. you  fill out the metadata of your provers in the form of [our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data)
-  1. done; that was all.
+   1. you give [us](mailto:michael.kohlhase@fau.de) a list of repository names, then I will make them for you unter http://github.com/theoremprover-museum
+   1. you give [us](mailto:michael.kohlhase@fau.de) your GitHub account name, and [we](mailto:michael.kohlhase@fau.de) will make you admin to these repositories.
+   1. you  fill out the metadata of your provers in the form of [our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data)
+   1. done; that was all.
 * If you know about the history of theorem proving just add metadata to
 [our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data);
 There are  two ways to do this: 
-   1. [directly edit `provers.yml`](https://github.com/theoremprover-museum/theoremprover-museum.github.io/edit/master/_data/provers.yml)
+    1. [directly edit `provers.yml`](https://github.com/theoremprover-museum/theoremprover-museum.github.io/edit/master/_data/provers.yml)
       according to the
       [README](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data)
       in the web interface and make a pull request (specify this at the very bottom of the
       edit page)
- 2. or download
+  2. or download
     [`provers.yml`](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data/provers.yml)
     and send the updated version [via e-mail](mailto:michael.kohlhase@fau.de).
 * to request a system, do the same as above. 
