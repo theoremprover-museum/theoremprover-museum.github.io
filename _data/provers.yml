@@ -481,7 +481,7 @@
   language: Pure Lisp
   note: the code is still linked from the ACL github repository.     
 
- - name: EQP
+- name: EQP
   active: false
   TPMarchive: EQP
   swmath: 15620
