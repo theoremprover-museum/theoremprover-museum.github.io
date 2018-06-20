@@ -20,16 +20,18 @@ We are grateful to [GitHub.com](http://github.com) for their service to the open
   1. you give [us](mailto:michael.kohlhase@fau.de) your GitHub account name, and [we](mailto:michael.kohlhase@fau.de) will make you admin to these repositories.
   1. you  fill out the metadata of your provers in the form of [our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data)
   1. done; that was all.
-* If you know about the history of theorem proving just add metadata to [our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data); make a pull request of send an updated version [via e-mail](mailto:michael.kohlhase@fau.de).
-* to request a system, just fill out the following form:
-
-```YAML
-- name: <system name>
-  authors: <comma-separated list of person names>
-  dev-years: <a range of years in the form YYYY-YYYY where it was developed>
-  uri: <space-separated list of URIs with information about the system>
-  note: <where can I find it, has something happened?>
-```	
+* If you know about the history of theorem proving just add metadata to
+[our provers database](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data);
+There are  two ways to do this: 
+   1. [directly edit `provers.yml`](https://github.com/theoremprover-museum/theoremprover-museum.github.io/edit/master/_data/provers.yml)
+      according to the
+      [README](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data)
+      in the web interface and make a pull request (specify this at the very bottom of the
+      edit page)
+ 2. or download
+    [`provers.yml`](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data/provers.yml)
+    and send the updated version [via e-mail](mailto:michael.kohlhase@fau.de).
+* to request a system, do the same as above. 
 * if all else fails, please contact [Michael Kohlhase](http://kwarc.info/kohlhase).
 
 ### Individual Contributors to the Theorem Prover Museum
