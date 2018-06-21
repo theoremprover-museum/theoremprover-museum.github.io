@@ -362,17 +362,6 @@
   language: Prolog
   status: wanted
 
-- name: LEGO
-  TPMarchive: LEGO
-  authors: Randy Pollack
-  development: <= 1999
-  homepage: http://www.dcs.ed.ac.uk/home/lego/
-  teaser: an interactive proof development system for various type theories
-  active: false
-  status: museum
-  wikipedia: https://en.wikipedia.org/wiki/LEGO_(proof_assistant)
-  swmath: 9685
- 
 - name: AM
   authors: Doug Lenat
   active: false
@@ -504,3 +493,15 @@
   wikipedia: https://en.wikipedia.org/wiki/EQP
   homepage: http://www.cs.unm.edu/~mccune/eqp/
   language: C
+
+- name: LEGO
+  TPMarchive: LEGO
+  authors: Randy Pollack
+  development: <= 1999
+  homepage: http://www.dcs.ed.ac.uk/home/lego/
+  teaser: an interactive proof development system for various type theories
+  active: false
+  status: museum
+  wikipedia: https://en.wikipedia.org/wiki/LEGO_(proof_assistant)
+  swmath: 9685
+ 
