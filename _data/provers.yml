@@ -368,7 +368,7 @@
   development: <= 1999
   homepage: http://www.dcs.ed.ac.uk/home/lego/
   teaser: an interactive proof development system for various type theories
-  Active: false
+  active: false
   status: museum
   wikipedia: https://en.wikipedia.org/wiki/LEGO_(proof_assistant)
   swmath: 9685
