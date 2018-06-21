@@ -363,11 +363,16 @@
   status: wanted
 
 - name: LEGO
+  TPMarchive: LEGO
   authors: Randy Pollack
-  active: false
-  status: wanted
-  note: <a href="http://www.dcs.ed.ac.uk/home/lego/">LEGO</a> (Randy Pollack contacted repeatedly)  	  
-
+  development: <= 1999
+  homepage: http://www.dcs.ed.ac.uk/home/lego/
+  teaser: an interactive proof development system for various type theories
+  Active: false
+  status: museum
+  wikipedia: https://en.wikipedia.org/wiki/LEGO_(proof_assistant)
+  swmath: 9685
+ 
 - name: AM
   authors: Doug Lenat
   active: false
