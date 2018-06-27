@@ -499,9 +499,10 @@
   authors: Randy Pollack
   development: <= 1999
   homepage: http://www.dcs.ed.ac.uk/home/lego/
-  teaser: an interactive proof development system for various type theories
+  teaser: an early interactive proof development system for various type theories
   active: false
   status: museum
   wikipedia: https://en.wikipedia.org/wiki/LEGO_(proof_assistant)
+  note: See http://homepages.inf.ed.ac.uk/rpollack/bibfile.html ​for some old documents.
   swmath: 9685
  
