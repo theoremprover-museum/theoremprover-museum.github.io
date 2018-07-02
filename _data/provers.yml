@@ -506,3 +506,10 @@
   note: See http://homepages.inf.ed.ac.uk/rpollack/bibfile.html ​for some old documents.
   swmath: 9685
  
+- name: Cambridge LCF
+  active: false
+  status: museum
+  teaser: Edinburgh LCF re-implemented in Standard ML
+  TPMarchive: CambridgeLCF
+  language: Standard ML
+  
