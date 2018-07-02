@@ -5,7 +5,7 @@
   teaser: The IMPS Theorem Prover.
   TPMarchive: imps
   language: Scheme, Common Lisp 
-  swmath: http://swmath.org/software/9143
+  swmath: 9143
 
 - name: MKRP
   active: false
@@ -14,7 +14,7 @@
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover
   TPMarchive: MKRP
   language: Common Lisp
-  swmath: http://swmath.org/software/19606
+  swmath: 19606
 
 - name: OMEGA
   authors: Jörg Siekmann, Detlef Fehrer, Christoph Benzmüller, Michael Kohlhase, Manfred Kerber
@@ -23,7 +23,7 @@
   teaser: A theorem prover for higher-order logic based on proof planning.
   language: Common Lisp
   TPMarchive: OMEGA
-  swmath: http://swmath.org/software/19623
+  swmath: 19623
 
 - name: InKa
   authors: Dieter Hutter 
@@ -31,7 +31,7 @@
   status: museum
   teaser: An Inductive Theorem Prover
   TPMarchive: InKa
-  swmath: http://swmath.org/software/19610
+  swmath: 19610
 
 - name: Otter
   authors: William McCune 
@@ -39,7 +39,7 @@
   status: museum
   teaser: The first theorem prover for first-order logic with equality from the Argonne group that was widely distributed.
   TPMarchive: otter
-  swmath: http://swmath.org/software/2904
+  swmath: 2904
 
 - name: Mace
   authors: William McCune 
@@ -54,7 +54,7 @@
   status: museum
   teaser:  Prover9 is the successor to Otter
   TPMarchive: prover9
-  swmath: http://swmath.org/software/4969
+  swmath: 4969
 
 - name: Mace4
   authors: William McCune 
@@ -62,7 +62,7 @@
   status: museum
   teaser: Mace4 is the successor of Mace.
   TPMarchive: prover9
-  swmath: http://swmath.org/software/6905
+  swmath: 6905
 
 - name: PRESS
   authors: Alan Bundy
@@ -71,14 +71,14 @@
   teaser: The Prolog Equation Solving System (PRESS) pioneered work on what is now called proof planning.
   TPMarchive: PRESS
   language: Prolog
-  swmath: http://swmath.org/software/21327
+  swmath: 21327
 
 - name: LCF77
   active: false
   status: museum
   teaser: The original Edinburgh LCF
   TPMarchive: LCF77
-  swmath: http://swmath.org/software/8360
+  swmath: 8360
 
 - name: TPS
   active: false
@@ -87,7 +87,7 @@
   teaser: TPS is an interactive, semi-automatic, and automatic Theorem Proving System for first-order logic and higher-order logic.
   TPMarchive: TPS
   language: Comon Lisp
-  swmath: http://swmath.org/software/973
+  swmath: 973
 
 - name: ETPS
   active: false
@@ -96,21 +96,21 @@
   teaser: ETPS is a subsystem of  TPS designed for interactive use by students in logic courses.
   TPMarchive: TPS
   language: Common Lisp
-  swmath: http://swmath.org/software/6302
+  swmath: 6302
 
 - name: HOL88
   active: false
   status: museum
   teaser: The HOL System is an environment for interactive theorem proving in a higher-order logic. Its most outstanding feature is its high degree of programmability through the meta-language ML.
   TPMarchive: HOL88
-  swmath: http://swmath.org/software/19615
+  swmath: 19615
 
 - name: HOL90
   active: false
   status: museum
   teaser: The  rational reconstruction of HOL88 
   TPMarchive: HOL90
-  swmath: http://swmath.org/software/19616
+  swmath: 19616
 
 - name: SNARK
   authors: Mark Stickel
@@ -119,7 +119,7 @@
   teaser: SRIs New Automated Reasoning Kit
   repos: https://github.com/nilqed/SNARK
   TPMarchive: SNARK
-  swmath: http://swmath.org/software/19611
+  swmath: 19611
 
 - name: PRV
   active: false
@@ -128,28 +128,28 @@
   teaser: an early theorem prover written in SNOBOL
   TPMarchive: PRV-Beweisprogramm
   language: SNOBOL
-  swmath: http://swmath.org/software/19617
+  swmath: 19617
 
 - name: OSHL
   active: false
   status: museum
   teaser: A general-purpose instance-based first-order automated theorem proving algorithm
   TPMarchive: OSHL
-  swmath: http://swmath.org/software/19628
+  swmath: 19628
 
 - name: CLIN
   active: false
   status: museum
   teaser: A Semantically Guided First-Order Theorem Prover
   TPMarchive: CLIN
-  swmath: http://swmath.org/software/19618
+  swmath: 19618
 
 - name: NQTHM
   active: false
   status: museum
   teaser: An improved version of the original Boyer-Moore theorem prover
   repos: https://github.com/John-Nagle/nqthm
-  swmath: http://swmath.org/software/7543
+  swmath: 7543
 
 - name: clam2
   authors: Alan Bundy 
@@ -158,7 +158,7 @@
   teaser: A Prolog implementation of the proof planner Clam (in the clam2 development branch) and the associated theorem prover, oyster.
   TPMarchive: clam2
   language: Prolog
-  swmath: http://swmath.org/software/19620
+  swmath: 19620
 
 - name: Clam 3
   active: false
@@ -166,14 +166,14 @@
   teaser: Prolog implementation of proof planner with critics, and some higher-order unification, in the v3 branch of Clam.
   TPMarchive: clam3
   language: Prolog
-  swmath: http://swmath.org/software/19621
+  swmath: 19621
 
 - name: LambdaClam
   active: false
   status: museum
   teaser: A proof planning system that support proof planning over higher-order domains.
   TPMarchive: lambdaclam
-  swmath: http://swmath.org/software/19614
+  swmath: 19614
 
 - name: MUSCADET
   authors: Dominique Pastre
@@ -181,21 +181,21 @@
   status: museum
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
   TPMarchive: muscadet
-  swmath: http://swmath.org/software/6859
+  swmath: 6859
 
 - name: DISCOUNT
   active: false
   status: museum
   teaser: A Distributed and Learning Equational Prover.
   TPMarchive: discount
-  swmath: http://swmath.org/software/19613
+  swmath: 19613
 
 - name: SAD
   active: false
   status: museum
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
-  swmath: http://swmath.org/software/9796
+  swmath: 9796
 
 - name: scunac
   authors: Chad Brown
@@ -203,7 +203,7 @@
   status: museum
   teaser: A proof checker and interactive theorem prover for dependently typed set theory.
   TPMarchive: scunac
-  swmath: http://swmath.org/software/21328
+  swmath: 21328
 
 - name: SETHEO
   authors: Johann Schumann, Wolfgang Bibel
@@ -211,7 +211,7 @@
   status: museum
   teaser: A first-order theorem prover based on the connection method.
   TPMarchive: SETHEO
-  swmath: http://swmath.org/software/707
+  swmath: 707
 
 - name: ProCom
   authors: Gerd Neugebauer &amp; Uwe Petermann
@@ -221,7 +221,7 @@
   homepage: http://koralle.htwk-leipzig.de/ProCom/index.html
   teaser: A theorem prover based on the PTTP paradigm.
   TPMarchive: ProCom
-  swmath: http://swmath.org/software/21329
+  swmath: 21329
   license: GPL V1
   language: (ECLiPSe) Prolog
 
@@ -231,20 +231,20 @@
   status: museum
   teaser: The first theorem prover by Newell and Simon.
   TPMarchive: logic-theorist
-  swmath: http://swmath.org/software/21331
+  swmath: 21331
 
 - name: ACL2
   active: true
   teaser: A Computational Logic for Applicative Common Lisp
   repos: https://github.com/acl2/acl2
-  swmath: http://swmath.org/software/00060
+  swmath: 00060
 
 - name: Isabelle
   active: true
   teaser: A Generic Theorem Prover
   repos: http://isabelle.in.tum.de/repos/isabelle
   TPMarchive: isabelle
-  swmath: http://swmath.org/software/00454
+  swmath: 00454
   homepage: https://isabelle.in.tum.de
   authors: Tobias Nipkow, Lawrence Paulson, Makarius Wenzel and numerous others
   wikipedia: https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)
@@ -512,4 +512,5 @@
   teaser: Edinburgh LCF re-implemented in Standard ML
   TPMarchive: CambridgeLCF
   language: Standard ML
+  authos: Konrad Slind
   
