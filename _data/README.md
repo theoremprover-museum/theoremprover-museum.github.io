@@ -28,7 +28,8 @@ And now the optional fields that can be used to describe the systems.
 * `license`: the license(s) of the code 
 * `note`: a (short) note with anything you want to s
 
-To contribute, just complete the following YML snippet and contribute it.
+To contribute, just complete the following YML snippet and contribute it (`status` will be
+filled out by us).
 ```
 - name: 
   active: 
