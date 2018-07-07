@@ -46,5 +46,6 @@ filled out by us).
   note: 
 ```
 More metadata is to come
-([discussion](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues/11)).
+([discussion](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues/11)). If
+  you are missing a slot for information you have, please suggest it there. 
 
