@@ -28,4 +28,22 @@ And now the optional fields that can be used to describe the systems.
 * `license`: the license(s) of the code 
 * `note`: a (short) note with anything you want to s
 
-More metadata is to come ([discussion](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues/11)).
+To contribute, just complete the following YML snippet and contribute it.
+```
+- name: 
+  active: 
+  teaser: 
+  homepage: 
+  authors:
+  maintainers:
+  repos:
+  swmath: 
+  wikipedia: 
+  development:
+  language:
+  license: 
+  note: 
+```
+More metadata is to come
+([discussion](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues/11)).
+
