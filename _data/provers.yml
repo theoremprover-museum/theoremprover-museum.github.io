@@ -177,11 +177,15 @@
 
 - name: MUSCADET
   authors: Dominique Pastre
-  active: false
+  active: true
   status: museum
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
   TPMarchive: muscadet
-  swmath: 6859
+  swmath: http://swmath.org/software/6859
+  homepage: //http://www.normalesup.org/~pastre/muscadet/muscadet.html
+  development: 1984-
+  language: Prolog
+  license: BSD
 
 - name: DISCOUNT
   active: false
