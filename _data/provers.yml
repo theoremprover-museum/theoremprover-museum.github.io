@@ -100,6 +100,7 @@
 
 - name: HOL88
   active: false
+  authors: Mike Gordon, Tom Melham, and numerous other contributors
   status: museum
   teaser: The HOL System is an environment for interactive theorem proving in a higher-order logic. Its most outstanding feature is its high degree of programmability through the meta-language ML.
   TPMarchive: HOL88
@@ -107,6 +108,7 @@
 
 - name: HOL90
   active: false
+  authors: Konrad Slind, Graham Birtwistle
   status: museum
   teaser: The  rational reconstruction of HOL88 
   TPMarchive: HOL90
