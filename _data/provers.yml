@@ -1,3 +1,51 @@
+- name: Aquarius
+  active: false
+  teaser: a Clause-Diffusion parallelization of Otter 2.2 for workstation networks
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina
+  development: 1992 - 1992
+  language: C, PCN
+  
+- name: Peers
+  active: false
+  teaser: a Clause-Diffusion prover parallelizing Otter Parts Store code for equational theories (modulo AC)
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina, William W. McCune
+  development: 1993 - 1995
+  language: C, p4
+  
+- name: Peers-mcd.a
+  active: false
+  teaser: a Modified-Clause-Diffusion prover parallelizing Otter Parts Store code for equational theories (modulo AC) 
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina
+  development: 1995 - 1996
+  language: C, p4
+  
+- name: Peers-mcd.b
+  active: false
+  teaser: a Modified-Clause-Diffusion parallelization of EQP 0.9 for either workstation networks or multi-processors
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina
+  development: 1996 - 1999
+  language: C, MPI
+  
+- name: Peers-mcd.c
+  active: false
+  teaser: a Modified-Clause-Diffusion parallelization of EQP 0.9d for workstation networks
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina
+  development: 1999 - 2000
+  language: C, MPI
+  
+- name: Peers-mcd.d
+  active: false
+  teaser: a Modified-Clause-Diffusion plus multi-search parallelization of EQP 0.9d for workstation networks
+  homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
+  authors: Maria Paola Bonacina, Javeed Chida
+  development: 2000 - 2001
+  language: C, MPI
+  
 - name: IMPS
   authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
   active: false
