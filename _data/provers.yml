@@ -13,7 +13,7 @@
   authors: Jörg Siekmann, Jürgen Ohlbach, Axel Präcklein 
   teaser: The Markgraph Karl Refutation Procedure, a graph-based resolution theorem prover
   TPMarchive: MKRP
-  language: Common Lisp
+  language: Common Lisp (CLOS)
   swmath: 19606
 
 - name: OMEGA
@@ -21,7 +21,7 @@
   active: false
   status: museum
   teaser: A theorem prover for higher-order logic based on proof planning.
-  language: Common Lisp
+  language: Common Lisp (CLOS)
   TPMarchive: OMEGA
   swmath: 19623
 
@@ -38,6 +38,7 @@
   active: false
   status: museum
   teaser: The first theorem prover for first-order logic with equality from the Argonne group that was widely distributed.
+  language: C
   TPMarchive: otter
   swmath: 2904
 
@@ -46,6 +47,7 @@
   active: false
   status: museum
   teaser: The Argonne Model generator. 
+  language: C
   TPMarchive: otter
 
 - name: Prover9 
@@ -54,6 +56,7 @@
   status: museum
   teaser:  Prover9 is the successor to Otter
   TPMarchive: prover9
+  language: C
   swmath: 4969
 
 - name: Mace4
@@ -62,6 +65,7 @@
   status: museum
   teaser: Mace4 is the successor of Mace.
   TPMarchive: prover9
+  language: C
   swmath: 6905
 
 - name: PRESS
