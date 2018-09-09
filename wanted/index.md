@@ -20,7 +20,9 @@ To contribute source code or suggest a system for inclusion, please contact <a h
 Alternatively, just open <a href="https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues/">an issue on our tracker</a>.
 
 **Acknowledgements**: Thanks to the following colleagues for suggestions: 
-Alan Bundy, Josef Urban, Jacques Fleuriot, Cezar Munoz, Freek Wiedijk, Jörg Siekmann, Georges Gonthier, Florian Rabe, Larry Paulson, Konrad Slind, David Plaisted, Matt Kaufmann, John Harrison, Mike Gordon.
+Alan Bundy, Josef Urban, Jacques Fleuriot, Cezar Munoz, Freek Wiedijk, Jörg Siekmann,
+Georges Gonthier, Florian Rabe, Larry Paulson, Konrad Slind, David Plaisted, Matt
+Kaufmann, John Harrison, Mike Gordon, Maria Paola Bonacina.
 
 
 We list theorem proving systems and their known associates (for contact) and state
