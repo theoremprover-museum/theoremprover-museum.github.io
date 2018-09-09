@@ -1,5 +1,7 @@
 - name: Aquarius
   active: false
+  status: museum
+  TPMarchive: Aquarius
   teaser: a Clause-Diffusion parallelization of Otter 2.2 for workstation networks
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina
@@ -8,6 +10,8 @@
   
 - name: Peers
   active: false
+  status: museum
+  TPMarchive: Peers
   teaser: a Clause-Diffusion prover parallelizing Otter Parts Store code for equational theories (modulo AC)
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina, William W. McCune
@@ -16,6 +20,8 @@
   
 - name: Peers-mcd.a
   active: false
+  status: museum
+  TPMarchive: Peers-mcd
   teaser: a Modified-Clause-Diffusion prover parallelizing Otter Parts Store code for equational theories (modulo AC) 
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina
@@ -24,6 +30,8 @@
   
 - name: Peers-mcd.b
   active: false
+  status: museum
+  TPMarchive: Peers-mcd
   teaser: a Modified-Clause-Diffusion parallelization of EQP 0.9 for either workstation networks or multi-processors
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina
@@ -32,6 +40,8 @@
   
 - name: Peers-mcd.c
   active: false
+  status: museum
+  TPMarchive: Peers-mcd
   teaser: a Modified-Clause-Diffusion parallelization of EQP 0.9d for workstation networks
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina
@@ -40,12 +50,14 @@
   
 - name: Peers-mcd.d
   active: false
+  status: museum
+  TPMarchive: Peers-mcd
   teaser: a Modified-Clause-Diffusion plus multi-search parallelization of EQP 0.9d for workstation networks
   homepage: http://profs.sci.univr.it/~bonacina/cdprovers.html
   authors: Maria Paola Bonacina, Javeed Chida
   development: 2000 - 2001
   language: C, MPI
-  
+ 
 - name: IMPS
   authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
   active: false
@@ -268,7 +280,7 @@
   swmath: 707
 
 - name: ProCom
-  authors: Gerd Neugebauer &amp; Uwe Petermann
+  authors: Gerd Neugebauer, Uwe Petermann
   active: false
   status: museum
   development: 1992-1995
