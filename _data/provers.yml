@@ -27,6 +27,7 @@
   authors: Maria Paola Bonacina
   development: 1995 - 1996
   language: C, p4
+  swmath: 23958
   
 - name: Peers-mcd.b
   active: false
@@ -37,6 +38,7 @@
   authors: Maria Paola Bonacina
   development: 1996 - 1999
   language: C, MPI
+  swmath: 23958
   
 - name: Peers-mcd.c
   active: false
@@ -47,6 +49,7 @@
   authors: Maria Paola Bonacina
   development: 1999 - 2000
   language: C, MPI
+  swmath: 23958
   
 - name: Peers-mcd.d
   active: false
@@ -57,6 +60,7 @@
   authors: Maria Paola Bonacina, Javeed Chida
   development: 2000 - 2001
   language: C, MPI
+  swmath: 23958
  
 - name: IMPS
   authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
