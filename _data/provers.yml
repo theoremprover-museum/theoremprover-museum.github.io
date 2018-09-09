@@ -77,6 +77,8 @@
   active: false
   status: museum
   teaser: The original Edinburgh LCF
+  authors: Robin Milner
+  development: 1972-1977
   TPMarchive: LCF77
   swmath: 8360
 
@@ -197,10 +199,11 @@
   swmath: 19613
 
 - name: SAD
-  active: false
-  status: museum
+  active: true
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
+  authors: Konstantin Verchinine, Alexander Lyaletski, Andrei Paskevich
+  development: 1970-
   swmath: 9796
 
 - name: scunac
@@ -358,12 +361,12 @@
   note: Adam Naumowicz will look for Mizar4
 
 - name: Oleg
-  author: Connor McBride
+  authors: Connor McBride
   active: false
   status: wanted
 
 - name: LeanTaP
-  author: Bernhard Beckert
+  authors: Bernhard Beckert
   active: false
   language: Prolog
   status: wanted
@@ -389,12 +392,12 @@
   note: does anyone have contact to them?
 
 - name: The conjecturing systems by Simon Colton
-  author: Simon Colton
+  authors: Simon Colton
   active: false
   status: wanted
 
 - name: "Martin Davis' Presburger implementation"
-  author: Marin Davis
+  authors: Marin Davis
   active: false
   status: wanted
 
@@ -423,7 +426,7 @@
   note:  <a href="http://www.legacy.com/obituaries/vancouversun/obituary.aspx?pid=174610982">see this for reference</a>
 
 - name: "Hao Wang's AE prover and full FOL prover (IBM?)"
-  author: Hao Wang
+  authors: Hao Wang
   active: false
   status: wanted
   note:  <a href="https://en.wikipedia.org/wiki/Hao_Wang_(academic)"> see here</a>
@@ -518,7 +521,7 @@
   teaser: Edinburgh LCF re-implemented in Standard ML
   TPMarchive: CambridgeLCF
   language: Standard ML
-  authos: Konrad Slind
+  authors: Konrad Slind
   
 - name: Aquarius
   active: false
