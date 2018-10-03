@@ -401,7 +401,7 @@
   status: wanted
 
 - name: "Martin Davis' Presburger implementation"
-  authors: Marin Davis
+  authors: Martin Davis
   active: false
   status: wanted
 
