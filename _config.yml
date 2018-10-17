@@ -4,7 +4,7 @@ url:                 http://theoremprover-museum.github.io
 baseurl:             ''
 
 # all the pagination
-gems:
+plugins:
   - jekyll-paginate
 paginate:            10
 paginate_path:       "/news/page:num/"

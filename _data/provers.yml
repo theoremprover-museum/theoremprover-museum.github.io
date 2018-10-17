@@ -186,7 +186,6 @@
 - name: MUSCADET
   authors: Dominique Pastre
   active: true
-  status: museum
   teaser: An automatic theorem proving system using knowledge and metaknowledge in mathematics.
   TPMarchive: muscadet
   swmath: http://swmath.org/software/6859

@@ -11,4 +11,4 @@ Therefore the [Theorem Prover Museum](/) maintains a list of source code reposit
 
 This list also contains theorem provers that many assume not to be active anymore. 
 Some of the systems get here when I contact the maintainers to donate the code for the museum. 
-For instance, I contacted David McAllester (who had not been seen in the ATP community for a decade) about the Ontic theorem prover and I got the somewhat indignant reply *... but Ontic lives!!!!*. 
+For instance, I contacted David McAllester (who had not been seen in the ATP community for a decade) about the Ontic theorem prover and I got the somewhat indignant reply *... but Ontic lives!!!!*. pro

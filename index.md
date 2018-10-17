@@ -23,7 +23,8 @@ This site is the front-end to a collection of source code repositories for theor
 Note that it is not the purpose of this site to keep the theorem proving systems running (in many cases the compilers and dependencies have moved on, making this very difficult), but only to archive the source code for academic study and aggregate meta-data about the systems. 
 In particular this should lower the barrier of archiving systems here. 
 
-See also [most wanted list](/wanted/), [systems believed lost](/lost/), [how to contribute](/contributors/), [Community](/community/), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
+See also [most wanted list](/wanted/), [systems believed lost](/lost/),
+[active provers](/active/), [how to contribute](/contributors/), [Community](/community/), [project/issues](https://github.com/theoremprover-museum/theoremprover-museum.github.io/issues). 
 
 ### Latest News [Full List](/news/) [<img class="icon" src="{{ site.baseurl }}/public/feed.png" alt="atom feed">]({{ site.baseurl }}/atom.xml)
 
