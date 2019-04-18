@@ -1,3 +1,5 @@
+# The Data Files of the Theorem Prover Museum
+
 The data files of the Theorem Prover Museum. They are used to generate the web pages of
 the museum. To contribute, please
 [make a pull request](https://help.github.com/articles/using-pull-requests), for instance
