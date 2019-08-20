@@ -1,31 +1,3 @@
-- name: Hipster
-  active: true
-  teaser: Automated induction and theory exploration on top of Isabelle/HOL.
-  authors: Moa Johansson, Irene Lobo Valbuena, Solrun Halla Einarsdottir, Johannes Åman Pohjola
-  repos: https://github.com/moajohansson/IsaHipster
-  development: 2014 - 
-  language: PolyML (Haskell)
-  note:  A sister system and successor of HipSpec, using the same backend for conjecture discovery (QuickSpec) but for Isabelle/HOL theories.
-  
-- name: HipSpec
-  active: true
-  teaser: Automated induction and theory exploration for Haskell programs.
-  authors: Dan Rosén, Nicholas Smallbone, Moa Johansson, Koen Claessen
-  repos: https://github.com/danr/hipspec
-  development: 2011 - 2014
-  language: Haskell
-  note: A sister system to Hipster, using the same backend for conjecture discovery (QuickSpec) but for Haskell programs.
-  
-- name: IsaPlanner (with IsaCoSy)
-  active: true
-  teaser: A proof planner for Isabelle/HOL focusing on automated induction.
-  authors: Lucas Dixon, Moa Johansson (+ possibly others too)
-  repos: https://github.com/TheoryMine/IsaPlanner
-  development: approx. 2000 - 2015.
-  language: Poly ML
-  note: The theory exploration system IsaCoSy exists in the same repo (see synthesis directory).  
-  
-  
 - name: IMPS
   authors: William M. Farmer, Joshua D. Guttman, F. Javier Thayer
   active: false
@@ -619,3 +591,33 @@
   language: C, MPI
   swmath: 23958
  
+- name: Hipster
+  active: true
+  teaser: Automated induction and theory exploration on top of Isabelle/HOL.
+  authors: Moa Johansson, Irene Lobo Valbuena, Solrun Halla Einarsdottir, Johannes Åman Pohjola
+  repos: https://github.com/moajohansson/IsaHipster
+  development: 2014 - 
+  language: PolyML (Haskell)
+  note:  A sister system and successor of HipSpec, using the same backend for conjecture discovery (QuickSpec) but for Isabelle/HOL theories.
+  
+- name: HipSpec
+  active: false
+  status: museum
+  teaser: Automated induction and theory exploration for Haskell programs.
+  authors: Dan Rosén, Nicholas Smallbone, Moa Johansson, Koen Claessen
+  repos: https://github.com/danr/hipspec
+  development: 2011 - 2014
+  language: Haskell
+  note: A sister system to Hipster, using the same backend for conjecture discovery (QuickSpec) but for Haskell programs.
+  
+- name: IsaPlanner (with IsaCoSy)
+  active: false
+  status: museum
+  teaser: A proof planner for Isabelle/HOL focusing on automated induction.
+  authors: Lucas Dixon, Moa Johansson (+ possibly others too)
+  repos: https://github.com/TheoryMine/IsaPlanner
+  development: approx. 2000 - 2015.
+  language: Poly ML
+  note: The theory exploration system IsaCoSy exists in the same repo (see synthesis directory).  
+  
+  
