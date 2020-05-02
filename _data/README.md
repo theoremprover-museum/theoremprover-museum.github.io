@@ -28,7 +28,7 @@ And now the optional fields that can be used to describe the systems.
 * `development`: the years of development (format: `yyyy-yyyy`). 
 * `language`: the main programming languages. 
 * `license`: the license(s) of the code 
-* `note`: a (short) note with anything you want to s
+* `note`: a (short) note with anything you want to say
 
 To contribute, just complete the following YML snippet and contribute it (`status` will be
 filled out by us).
