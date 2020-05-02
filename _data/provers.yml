@@ -366,7 +366,10 @@
 - name: Oleg
   authors: Conor McBride
   active: false
-  status: wanted
+  status: museum
+  homepage: http://strictlypositive.org/samizdat.html
+  language: Standard ML and LEGO
+  repos: https://github.com/theoremprover-museum/oleg
 
 - name: LeanTaP
   authors: Bernhard Beckert

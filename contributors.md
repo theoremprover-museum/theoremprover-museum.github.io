@@ -7,8 +7,8 @@ layout: default
 
 of the Theorem Prover Museum is provided by [GitHub](http://github.com) the premier web-based GIT repository hosting service. 
 The free-for-public hosting service of GitHub allows to provide separate repositories for the respective systems and give the respective authors and maintainers control over them, while promising long-term availability. 
-The [Museum web site](http://theoremprover-museum.github.io) is conveniently organized as a [public repository](https://github.com/ via <a href="https://pages.github.com/">GitHub
-pages</a>, with all data about systems centralized in a [provers database file ](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data/provers.yml) in [YAML format](https://en.wikipedia.org/wiki/YAML)
+The [Museum web site](http://theoremprover-museum.github.io) is conveniently organized as a public repository via <a href="https://pages.github.com/">GitHub
+pages</a>, with all data about systems centralized in a [provers database file ](https://github.com/theoremprover-museum/theoremprover-museum.github.io/blob/master/_data/provers.yml) in [YAML format](https://en.wikipedia.org/wiki/YAML).
 
 We are grateful to [GitHub.com](http://github.com) for their service to the open source community.
 
