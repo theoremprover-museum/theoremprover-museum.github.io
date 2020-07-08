@@ -625,6 +625,7 @@
   
 - name: SEQUEL
   active: false
+  status: museum
   teaser:  For generating type-secure and efficient Lisp programs.
   homepage: https://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/tools/sequel/0.html
   authors: Mark Tarver
