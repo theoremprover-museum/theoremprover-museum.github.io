@@ -629,7 +629,7 @@
   teaser:  For generating type-secure and efficient Lisp programs.
   homepage: https://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/lisp/code/tools/sequel/0.html
   authors: Mark Tarver
-  repos: https://github.com/theoremprover-museum/SEQUEL
+  TPMarchive: SEQUEL
   development: 1990-1994
   language: Common Lisp
 
