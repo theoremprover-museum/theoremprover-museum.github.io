@@ -202,12 +202,14 @@
   swmath: 19613
 
 - name: SAD
-  active: true
+  authors: Konstantin Verchinine, Alexander Lyaletski, Andrei Paskevich
+  active: false
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
-  authors: Konstantin Verchinine, Alexander Lyaletski, Andrei Paskevich
-  development: 1970-
+  homepage: http://nevidal.org/sad.en.html
+  development: 1970-2016
   swmath: 9796
+  language: Haskell
 
 - name: scunac
   authors: Chad Brown
