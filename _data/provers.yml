@@ -202,12 +202,14 @@
   swmath: 19613
 
 - name: SAD
-  active: true
+  authors: Konstantin Verchinine, Alexander Lyaletski, Andrei Paskevich
+  active: false
   teaser: A tool for automated verification of formal mathematical texts.
   repos: https://github.com/tertium/SAD
-  authors: Konstantin Verchinine, Alexander Lyaletski, Andrei Paskevich
-  development: 1970-
+  homepage: http://nevidal.org/sad.en.html
+  development: 1970-2016
   swmath: 9796
+  language: Haskell
 
 - name: scunac
   authors: Chad Brown
@@ -632,4 +634,55 @@
   TPMarchive: SEQUEL
   development: 1990-1994
   language: Common Lisp
+  
+- name: Naproche (version 0.x)
+  active: false
+  authors: Merlin Carl, Marcos Cramer, Peter Koepke, Daniel Kühlwein
+  development: 2007-2013
+  homepage: https://korpora-exp.zim.uni-duisburg-essen.de/naproche/
+  teaser: The Naproche system is a system for linguistically analysing and proof-checking mathematical texts written in a CNL.
+  swmath: 28307
+  language: SWI-Prolog
+  note: "The full list of developers for each version can be found here: https://korpora-exp.zim.uni-duisburg-essen.de/naproche/inc/change-log.php#version_01_--_2007"
 
+- name: Naproche-SAD
+  active: true
+  teaser: Continuation of SAD at the University of Bonn.
+  homepage: https://naproche.github.io/
+  authors: Andrei Paskevich, Steffen Frerix, Makarius Wenzel, Anton Lorenzen, Adrian Marti, and others
+  maintainers: Logic group at the University of Bonn
+  repos: https://github.com/naproche/naproche
+  swmath: 37536
+  development: 2018-
+  language: Haskell, Scala, ML
+  license: GPL 3.0
+
+- name: Why3
+  active: true
+  teaser: Why3 is a platform for deductive program verification.
+  homepage: http://why3.lri.fr/
+  authors: Claude Marche, Guillaume Melquiond, Sylvain Dailler, Benedikt Becker, Raphael Rieu-Helft, Jean-Christophe Filliatre, Cláudio Belo Lourenço, Andrei Paskevich, Mário Pereira, and others
+  maintainers: Toccata (at INRIA)
+  repos: https://gitlab.inria.fr/why3/why3
+  swmath: 4438
+  development: 2007-
+  language: OCaml, Coq
+  license: GPL 2.1
+
+- name: Elfe
+  active: true # Website is up and running, but development seems to have halted.
+  teaser: Interactive theorem proving for students.
+  homepage: https://elfe-prover.org/
+  authors: Maximilian Doré
+  repos: https://github.com/maxdore/elfe
+  development: 2017-2018
+  language: Haskell, JavaScript
+  license: MIT # No separate file in repo, but MIT is mentioned in the .cabal file.
+
+- name: Egal
+  active: false
+  teaser: Proof checker for higher-order Tarski Grothendieck set theory.
+  authors: Chad E. Brown
+  development: 2012-2014
+  language: OCaml, Coq
+  license: MIT
