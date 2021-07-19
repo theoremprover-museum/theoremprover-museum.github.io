@@ -640,7 +640,7 @@
   authors: Merlin Carl, Marcos Cramer, Peter Koepke, Daniel Kühlwein
   development: 2007-2013
   homepage: https://korpora-exp.zim.uni-duisburg-essen.de/naproche/
-  teaser: The Naproche system is a system for linguistically analysing and proof-checking mathematical texts written in a CNL.
+  Teaser: The Naproche system is a system for linguistically analysing and proof-checking mathematical texts written in a CNL.
   swmath: 28307
   language: SWI-Prolog
   note: "The full list of developers for each version can be found here: https://korpora-exp.zim.uni-duisburg-essen.de/naproche/inc/change-log.php#version_01_--_2007"
