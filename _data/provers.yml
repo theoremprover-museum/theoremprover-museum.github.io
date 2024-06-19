@@ -7,6 +7,9 @@
   language: Scheme, Common Lisp 
   swmath: 9143
 
+- name: EHDM
+  authors: at SRI
+
 - name: MKRP
   active: false
   status: museum
