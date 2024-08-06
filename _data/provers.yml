@@ -7,6 +7,14 @@
   language: Scheme, Common Lisp 
   swmath: 9143
 
+- name: fellowship
+  authors: Florent ?????
+  active: false
+  status: museum
+  teaser: The Fellowship Theorem Prover
+  TPMarchive: fellowship
+  language: ????
+
 - name: EHDM
   authors: at SRI
 
