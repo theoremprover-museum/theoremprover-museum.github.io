@@ -7,6 +7,11 @@
   language: Scheme, Common Lisp 
   swmath: 9143
 
+- name: minlog
+  authors: Helmut Schichtenberg et al. 
+  TPMarchive: minlog
+  language: ????
+
 - name: fellowship
   authors: Florent ?????
   active: false
