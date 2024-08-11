@@ -13,12 +13,12 @@
   language: ????
 
 - name: fellowship
-  authors: Florent ?????
+  authors: Florent Kirchner
   active: false
   status: museum
   teaser: The Fellowship Theorem Prover
   TPMarchive: fellowship
-  language: ????
+  language: ocaml
 
 - name: EHDM
   authors: at SRI
