@@ -702,3 +702,13 @@
   development: 2012-2014
   language: OCaml, Coq
   license: MIT
+
+- name: COOL
+  active: true
+  teaser: A generic reasoner for modal and hybrid logics; it can be instantiated to any modal or hybrid logic admitting an axiomatization in terms of so-called rank-1 rules or axioms.
+  authors: Merlin Humml, Thorsten Wißmann, Simon Prucker, Hans-Peter Deifel, Christoph Egger, Aaron Strahlberger, Frederik Hennig, Kristin Braun, Dominik Brunner, Ludwig Dietel, Sebastian Dietlmeier, Dirk Pattinson, Oliver Grosch, Dominik Paulis, Daniel Gorín, Daniel Hausmann
+  repos: https://git8.cs.fau.de/software/cool
+  swmath: 11992
+  development: 2013-
+  language: OCaml
+  license: GLP 3.0
