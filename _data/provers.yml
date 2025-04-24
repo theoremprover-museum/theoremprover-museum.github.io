@@ -543,7 +543,6 @@
   active: false
   status: museum
   teaser: Edinburgh LCF re-implemented in Standard ML
-  TPMarchive: CambridgeLCF
   development: 1980-1985
   language: Standard ML
   authors: Konrad Slind
