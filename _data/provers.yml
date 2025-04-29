@@ -711,3 +711,15 @@
   development: 2013-
   language: OCaml
   license: GLP 3.0
+
+- name: TATL*
+  active: false
+  status: museum
+  teaser: A tableau-based ATL* reasoner.
+  authors: Amèlie Regnault
+  repos: https://github.com/theoremprover-museum/TATL
+  homepage: https://atila.ibisc.univ-evry.fr/tableau_ATL_star/
+  swmath: 7522
+  development: 2015-2016
+  language: OCaml
+  license: Apache 2.0
